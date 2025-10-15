@@ -578,12 +578,12 @@ export default function Index() {
               <p className="text-base font-semibold text-foreground">
                 Here’s why readers are switching today:
               </p>
-              {offerBenefits.map((benefit) => (
-                <div key={benefit.title} className="flex items-start gap-3">
-                  <benefit.icon className="mt-1 h-4 w-4 text-primary" />
+              {offerBenefits.map(({ title, description, icon: Icon }) => (
+                <div key={title} className="flex items-start gap-3">
+                  <Icon className="mt-1 h-4 w-4 text-primary" />
                   <div>
-                    <p className="font-semibold text-foreground">{benefit.title}</p>
-                    <p>{benefit.description}</p>
+                    <p className="font-semibold text-foreground">{title}</p>
+                    <p>{description}</p>
                   </div>
                 </div>
               ))}
