@@ -663,11 +663,11 @@ export default function Index() {
                 <span>4.7 / 5 stars</span>
               </div>
 
-              <div className="rounded-2xl overflow-hidden bg-white p-3">
+              <div className="rounded-2xl overflow-hidden bg-white p-3 flex justify-center">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F8df822dd30f045b6bd3f3d062c917255?format=webp&width=800"
                   alt="ORTHOS Ankle Brace Product"
-                  className="w-full h-auto object-contain"
+                  className="w-3/4 h-auto object-contain"
                 />
               </div>
 
