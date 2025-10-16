@@ -65,7 +65,7 @@ export default function Index() {
               </div>
 
               <div className="overflow-hidden rounded-2xl shadow-lg">
-                <div className="aspect-video bg-gradient-to-br from-blue-200 to-teal-200" />
+                <img src="https://images.pexels.com/photos/6191213/pexels-photo-6191213.jpeg" alt="Orthopedic ankle support and care" className="w-full h-full object-cover" />
               </div>
             </section>
 
