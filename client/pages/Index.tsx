@@ -607,7 +607,7 @@ export default function Index() {
             <div className="space-y-6 rounded-2xl bg-white p-6 shadow-xl ring-1 ring-border/60" id="order">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wider text-primary">LIMITED TIME</p>
-                <h3 className="mt-2 font-display text-2xl text-foreground">Orthos Foot Sleeve</h3>
+                <h3 className="mt-2 text-2xl font-bold text-primary">Orthos Foot Sleeve</h3>
               </div>
 
               <div className="flex items-baseline gap-3">
