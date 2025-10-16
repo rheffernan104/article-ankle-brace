@@ -128,9 +128,9 @@ export default function Index() {
               </ul>
             </section>
 
-            {/* Lifestyle Image - Pain Illustration */}
+            {/* Expert Medical Professional */}
             <div className="overflow-hidden rounded-3xl shadow-xl">
-              <img src="https://images.pexels.com/photos/4005311/pexels-photo-4005311.jpeg" alt="Ankle injury care and relief treatment" className="w-full h-full object-cover" />
+              <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F38e4218a39564e56ac2b4d5e510768e9?format=webp&width=800" alt="Medical professional discussing foot anatomy" className="w-full h-full object-cover" />
             </div>
 
             {/* Expert Quote */}
