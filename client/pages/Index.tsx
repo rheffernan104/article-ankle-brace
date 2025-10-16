@@ -387,9 +387,9 @@ export default function Index() {
               </section>
             </div>
 
-            {/* Why Orthos Works Section */}
+            {/* Why ORTHOS Works Section */}
             <section className="space-y-8">
-              <h2 className="text-3xl font-bold text-primary">Why Does Orthos Work When Others Failed?</h2>
+              <h2 className="text-3xl font-bold text-primary">Why Does ORTHOS Work When Others Failed?</h2>
               <p className="text-base leading-relaxed text-muted-foreground">
                 Let's break it down piece by piece, so you can see exactly why this is different from everything else you've tried:
               </p>
