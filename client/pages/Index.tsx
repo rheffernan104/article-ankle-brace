@@ -663,6 +663,14 @@ export default function Index() {
                 <span>4.7 / 5 stars</span>
               </div>
 
+              <div className="rounded-2xl overflow-hidden bg-white p-3">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F8df822dd30f045b6bd3f3d062c917255?format=webp&width=800"
+                  alt="ORTHOS Ankle Brace Product"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+
               <a
                 href="https://orthos.store/products/ankle-brace"
                 className="block w-full rounded-full bg-primary py-3 text-center font-semibold text-primary-foreground hover:bg-primary/90"
