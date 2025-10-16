@@ -129,7 +129,7 @@ export default function Index() {
             </section>
 
             {/* Expert Medical Professional */}
-            <div className="overflow-hidden rounded-3xl shadow-xl">
+            <div className="overflow-hidden rounded-3xl shadow-xl max-w-sm mx-auto">
               <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F38e4218a39564e56ac2b4d5e510768e9?format=webp&width=800" alt="Medical professional discussing foot anatomy" className="w-full h-full object-cover" />
             </div>
 
