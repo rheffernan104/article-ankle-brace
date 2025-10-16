@@ -168,7 +168,7 @@ export default function Index() {
 
             {/* Product Feature Image - Foot Anatomy */}
             <div className="overflow-hidden rounded-3xl shadow-xl">
-              <div className="aspect-video bg-gradient-to-r from-blue-200 to-cyan-200" />
+              <img src="https://images.pexels.com/photos/4005311/pexels-photo-4005311.jpeg" alt="Foot compression sleeve features" className="w-full h-full object-cover" />
             </div>
 
             {/* The Solution */}
