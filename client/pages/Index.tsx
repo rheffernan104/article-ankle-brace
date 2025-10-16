@@ -235,11 +235,11 @@ export default function Index() {
               </p>
             </section>
 
-            {/* How Orthos Works */}
+            {/* How ORTHOS Works */}
             <section className="space-y-8">
-              <h2 className="text-3xl font-bold text-primary">How Orthos Restores Natural Foot Function (When Everything Else Failed)</h2>
+              <h2 className="text-3xl font-bold text-primary">How ORTHOS Restores Natural Foot Function (When Everything Else Failed)</h2>
               <p className="text-base leading-relaxed text-muted-foreground">
-                Here's what makes the Orthos Dual Support System™ completely different:
+                Here's what makes the ORTHOS Dual Support System™ completely different:
               </p>
 
               {/* Product Layers Diagram */}
