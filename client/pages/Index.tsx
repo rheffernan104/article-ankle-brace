@@ -88,7 +88,7 @@ export default function Index() {
             <section className="space-y-6 rounded-2xl border border-border bg-secondary/50 p-6 md:p-8">
               <p className="text-2xl font-bold text-foreground">This is shocking but true…</p>
               <p className="text-base leading-relaxed text-muted-foreground">
-                If you're dealing with stabbing heel pain in the morning, an ankle that feels like it might give out on uneven ground, or feet so swollen by evening you can barely get your shoes off�� you're not alone, and it's not in your head.
+                If you're dealing with stabbing heel pain in the morning, an ankle that feels like it might give out on uneven ground, or feet so swollen by evening you can barely get your shoes off… you're not alone, and it's not in your head.
               </p>
               <p className="text-base leading-relaxed text-muted-foreground">
                 In reality, foot and ankle pain has quietly become one of the most common—and ignored—health conditions affecting active adults today.
@@ -658,8 +658,8 @@ export default function Index() {
               </div>
 
               <div className="flex items-baseline gap-3">
-                <span className="text-4xl font-bold text-primary">$39.99</span>
-                <span className="text-sm font-semibold text-muted-foreground line-through">$79.99</span>
+                <span className="text-4xl font-bold text-primary">$39</span>
+                <span className="text-sm font-semibold text-muted-foreground line-through">$79</span>
                 <span className="rounded-full bg-accent/20 px-3 py-1 text-xs font-semibold text-accent">50% OFF</span>
               </div>
 
