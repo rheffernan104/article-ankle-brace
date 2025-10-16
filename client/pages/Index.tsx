@@ -226,7 +226,7 @@ export default function Index() {
                 After 18 months of prototyping with real patients, testing dozens of fabric grades and strap configurations, and working directly with podiatrists and athletic trainers, the answer emerged: The Orthos Dual Support System™.
               </p>
               <p className="text-base leading-relaxed text-muted-foreground">
-                The first support system to combine medical-grade 360�� compression with adjustable figure-8 stabilization straps—creating a unified support network that works with your body's natural structure, not against it.
+                The first support system to combine medical-grade 360° compression with adjustable figure-8 stabilization straps—creating a unified support network that works with your body's natural structure, not against it.
               </p>
             </section>
 
@@ -724,7 +724,7 @@ export default function Index() {
       </div>
 
       {/* Mobile Sticky Check Availability Button */}
-      <div className="xl:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-border shadow-2xl">
+      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-border shadow-2xl">
         <a
           href="#"
           className="block w-full bg-accent text-center py-4 text-lg font-semibold text-white hover:bg-accent/90 transition"
