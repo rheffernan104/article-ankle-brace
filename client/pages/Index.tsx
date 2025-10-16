@@ -643,59 +643,59 @@ export default function Index() {
           </article>
 
           {/* Sticky Sidebar */}
-          <aside className="space-y-6 h-fit sticky top-24 hidden lg:block">
-            <div className="space-y-6 rounded-2xl bg-white p-6 shadow-xl ring-1 ring-border/60" id="order">
-              <div>
+          <aside className="space-y-4 h-fit sticky top-24 hidden lg:block">
+            <div className="space-y-4 rounded-3xl bg-white p-6 shadow-2xl border border-border/40" id="order">
+              <div className="space-y-1">
                 <p className="text-xs font-semibold uppercase tracking-wider text-primary">LIMITED TIME</p>
-                <h3 className="mt-2 text-2xl font-bold text-primary">ORTHOS FOOT SLEEVE AND ANKLE SUPPORT STRAP</h3>
+                <h3 className="text-xl font-bold text-primary leading-snug">ORTHOS FOOT SLEEVE AND ANKLE SUPPORT STRAP</h3>
               </div>
 
-              <div className="flex items-baseline gap-3">
+              <div className="flex items-baseline gap-3 pt-1">
                 <span className="text-4xl font-bold text-primary">$39</span>
                 <span className="text-sm font-semibold text-muted-foreground line-through">$79</span>
                 <span className="rounded-full bg-accent/20 px-3 py-1 text-xs font-semibold text-accent">50% OFF</span>
               </div>
 
-              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+              <div className="flex items-center gap-2 text-sm text-muted-foreground pt-1">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                 ))}
-                <span>4.7 / 5 stars</span>
+                <span className="text-xs">4.7 / 5 stars</span>
               </div>
 
-              <div className="rounded-2xl overflow-hidden bg-white p-3 flex justify-center">
+              <div className="rounded-2xl overflow-hidden bg-gradient-to-b from-gray-50 to-gray-100 p-4 flex justify-center -mx-6 px-6">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F8df822dd30f045b6bd3f3d062c917255?format=webp&width=800"
                   alt="ORTHOS Ankle Brace Product"
-                  className="w-3/4 h-auto object-contain"
+                  className="w-2/3 h-auto object-contain"
                 />
               </div>
 
               <a
                 href="https://orthos.store/products/ankle-brace"
-                className="block w-full rounded-full bg-primary py-3 text-center font-semibold text-primary-foreground hover:bg-primary/90"
+                className="block w-full rounded-full bg-primary py-3 text-center font-semibold text-primary-foreground hover:bg-primary/90 transition mt-2"
               >
                 Get Orthos Now
               </a>
 
-              <ul className="space-y-3 text-sm text-muted-foreground">
+              <ul className="space-y-2 text-sm text-muted-foreground pt-1">
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="mt-0.5 h-4 w-4 text-primary flex-none" />
-                  <span>Free shipping on all orders</span>
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 text-primary flex-none flex-shrink-0" />
+                  <span className="text-xs">Free shipping on all orders</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="mt-0.5 h-4 w-4 text-primary flex-none" />
-                  <span>Fits any shoe</span>
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 text-primary flex-none flex-shrink-0" />
+                  <span className="text-xs">Fits any shoe</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="mt-0.5 h-4 w-4 text-primary flex-none" />
-                  <span>All day comfort</span>
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 text-primary flex-none flex-shrink-0" />
+                  <span className="text-xs">All day comfort</span>
                 </li>
               </ul>
 
-              <div className="rounded-xl border-2 border-dashed border-primary/30 bg-primary/5 p-4 text-center text-xs text-muted-foreground">
-                <p className="font-semibold text-foreground">Limited stock available</p>
-                <p className="mt-1">Projected to sell out in 7-10 days</p>
+              <div className="rounded-xl border border-primary/20 bg-primary/5 p-3 text-center text-xs text-muted-foreground">
+                <p className="font-semibold text-foreground text-xs">Limited stock available</p>
+                <p className="mt-0.5 text-xs">Projected to sell out in 7-10 days</p>
               </div>
             </div>
 
