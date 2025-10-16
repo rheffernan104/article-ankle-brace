@@ -658,20 +658,20 @@ export default function Index() {
             <div className="space-y-6 rounded-2xl bg-white p-6 shadow-xl ring-1 ring-border/60" id="order">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wider text-primary">LIMITED TIME</p>
-                <h3 className="mt-2 text-2xl font-bold text-primary">Orthos Foot Sleeve</h3>
+                <h3 className="mt-2 text-2xl font-bold text-primary">ORTHOS FOOT SLEEVE AND ANKLE SUPPORT STRAP</h3>
               </div>
 
               <div className="flex items-baseline gap-3">
-                <span className="text-4xl font-bold text-primary">$29</span>
-                <span className="text-sm font-semibold text-muted-foreground line-through">$99</span>
-                <span className="rounded-full bg-accent/20 px-3 py-1 text-xs font-semibold text-accent">70% OFF</span>
+                <span className="text-4xl font-bold text-primary">$39.99</span>
+                <span className="text-sm font-semibold text-muted-foreground line-through">$79.99</span>
+                <span className="rounded-full bg-accent/20 px-3 py-1 text-xs font-semibold text-accent">50% OFF</span>
               </div>
 
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="h-4 w-4 fill-accent text-accent" />
                 ))}
-                <span>4.9/5 (12,000+ customers)</span>
+                <span>4.7 out of 5 stars</span>
               </div>
 
               <a
@@ -684,15 +684,15 @@ export default function Index() {
               <ul className="space-y-3 text-sm text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 text-primary flex-none" />
-                  <span>30-night money-back guarantee</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="mt-0.5 h-4 w-4 text-primary flex-none" />
                   <span>Free shipping on all orders</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 text-primary flex-none" />
-                  <span>Free size exchanges included</span>
+                  <span>Fits any shoe</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 text-primary flex-none" />
+                  <span>All day comfort</span>
                 </li>
               </ul>
 
@@ -705,7 +705,6 @@ export default function Index() {
             <div className="rounded-2xl bg-secondary p-6 text-sm text-muted-foreground">
               <p className="font-semibold text-foreground mb-3">Benefits:</p>
               <ul className="space-y-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground/70">
-                <li>✓ Medical-grade support</li>
                 <li>✓ Fits any shoe</li>
                 <li>✓ Adjustable straps</li>
                 <li>✓ All-day comfort</li>
