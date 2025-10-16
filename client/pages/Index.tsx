@@ -168,9 +168,9 @@ export default function Index() {
               </p>
             </section>
 
-            {/* Product Feature Image - Foot Anatomy */}
+            {/* Product Feature Image - ORTHOS in Use */}
             <div className="overflow-hidden rounded-3xl shadow-xl">
-              <img src="https://images.pexels.com/photos/4005311/pexels-photo-4005311.jpeg" alt="Foot compression sleeve features" className="w-full h-full object-cover" />
+              <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F6147b49a2290431586e92589150e6a4e?format=webp&width=800" alt="ORTHOS ankle brace in daily use" className="w-full h-full object-cover" />
             </div>
 
             {/* The Solution */}
