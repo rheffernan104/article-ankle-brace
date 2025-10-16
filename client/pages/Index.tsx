@@ -57,9 +57,9 @@ export default function Index() {
               FAQ
             </a>
           </nav>
-          <button className="rounded-full bg-primary px-6 py-2 text-sm font-semibold text-primary-foreground hover:bg-primary/90">
+          <a href="https://orthos.store/products/ankle-brace" className="rounded-full bg-primary px-6 py-2 text-sm font-semibold text-primary-foreground hover:bg-primary/90 inline-block">
             Order Now
-          </button>
+          </a>
         </div>
       </header>
 
