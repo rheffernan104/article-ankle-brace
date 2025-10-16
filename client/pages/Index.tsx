@@ -86,7 +86,7 @@ export default function Index() {
 
             {/* Intro Section */}
             <section className="space-y-6 rounded-2xl border border-border bg-secondary/50 p-6 md:p-8">
-              <p className="font-display text-2xl text-foreground">This is shocking but true…</p>
+              <p className="text-2xl font-bold text-foreground">This is shocking but true…</p>
               <p className="text-base leading-relaxed text-muted-foreground">
                 If you're dealing with stabbing heel pain in the morning, an ankle that feels like it might give out on uneven ground, or feet so swollen by evening you can barely get your shoes off… you're not alone, and it's not in your head.
               </p>
