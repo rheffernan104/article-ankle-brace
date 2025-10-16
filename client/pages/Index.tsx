@@ -721,47 +721,15 @@ export default function Index() {
             </div>
           </aside>
 
-          {/* Mobile Sticky Sidebar */}
-          <aside className="xl:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-border shadow-2xl overflow-y-auto">
-            <div className="px-4 py-2">
-              <div className="space-y-2">
-                <div>
-                  <h3 className="text-sm font-bold text-primary">ORTHOS SLEEVE & STRAP</h3>
-                </div>
-
-                <div className="flex items-baseline gap-2">
-                  <span className="text-2xl font-bold text-primary">$39</span>
-                  <span className="text-xs font-semibold text-muted-foreground line-through">$79</span>
-                  <span className="rounded-full bg-accent/20 px-1.5 py-0.5 text-xs font-semibold text-accent">50% OFF</span>
-                </div>
-
-                <div className="flex items-center gap-1 text-xs text-muted-foreground">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-2.5 w-2.5 fill-accent text-accent" />
-                  ))}
-                  <span className="text-xs">4.7 stars</span>
-                </div>
-
-                <a
-                  href="#"
-                  className="block w-full rounded-full bg-primary py-1.5 text-center text-xs font-semibold text-primary-foreground hover:bg-primary/90"
-                >
-                  Get ORTHOS Now
-                </a>
-
-                <ul className="space-y-1 text-xs text-muted-foreground">
-                  <li className="flex items-start gap-1.5">
-                    <CheckCircle2 className="mt-0.5 h-2.5 w-2.5 text-primary flex-none" />
-                    <span>Fits any shoe</span>
-                  </li>
-                  <li className="flex items-start gap-1.5">
-                    <CheckCircle2 className="mt-0.5 h-2.5 w-2.5 text-primary flex-none" />
-                    <span>All day comfort</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </aside>
+          {/* Mobile Sticky Check Availability Button */}
+          <div className="xl:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-border shadow-2xl">
+            <a
+              href="#"
+              className="block w-full bg-accent text-center py-4 text-lg font-semibold text-white hover:bg-accent/90 transition"
+            >
+              Check Availability
+            </a>
+          </div>
         </div>
       </div>
     </div>
