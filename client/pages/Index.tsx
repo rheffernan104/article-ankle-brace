@@ -297,7 +297,7 @@ export default function Index() {
                     </p>
                   </div>
                   <div className="overflow-hidden rounded-2xl">
-                    <div className="aspect-square bg-gray-300" />
+                    <img src="https://images.pexels.com/photos/6191213/pexels-photo-6191213.jpeg" alt="Integrated arch lift and heel cushioning" className="w-full h-full object-cover" />
                   </div>
                 </div>
               </div>
