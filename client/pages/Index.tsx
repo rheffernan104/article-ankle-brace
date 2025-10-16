@@ -65,7 +65,7 @@ export default function Index() {
               </div>
 
               <div className="overflow-hidden rounded-2xl shadow-lg">
-                <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fefc19b1b549f4d8c8bc9b84dd62bb463?format=webp&width=800" alt="Medical professional discussing foot treatment" className="w-full h-full object-cover" />
+                <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F9b98a335bb814b4db77f0037668854d6?format=webp&width=800" alt="Anatomical foot support system" className="w-full h-full object-cover" />
               </div>
             </section>
 
