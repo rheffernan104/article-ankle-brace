@@ -261,7 +261,7 @@ export default function Index() {
                     </p>
                   </div>
                   <div className="overflow-hidden rounded-2xl">
-                    <img src="https://images.pexels.com/photos/6191213/pexels-photo-6191213.jpeg" alt="360 degree compression weave technology" className="w-full h-full object-cover" />
+                    <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F89474dd364344b518f6f310a644e91f6?format=webp&width=800" alt="360 degree compression weave technology" className="w-full h-full object-cover" />
                   </div>
                 </div>
 
