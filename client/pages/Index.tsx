@@ -572,6 +572,18 @@ export default function Index() {
               <p className="text-sm">30-Day Money-Back Guarantee | Free Shipping | Secure Checkout</p>
             </section>
 
+            {/* Lifestyle Grid - Real People Stories */}
+            <section className="space-y-8">
+              <h2 className="text-3xl font-bold text-primary">See the Difference Orthos Makes</h2>
+              <div className="grid gap-4 md:grid-cols-4">
+                {[1, 2, 3, 4].map((i) => (
+                  <div key={i} className="overflow-hidden rounded-2xl shadow-lg">
+                    <div className="aspect-square bg-gray-300" />
+                  </div>
+                ))}
+              </div>
+            </section>
+
             {/* Benefits Checklist */}
             <section className="space-y-6">
               <ul className="space-y-4 text-base text-muted-foreground">
