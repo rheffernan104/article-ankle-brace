@@ -720,17 +720,17 @@ export default function Index() {
               </ul>
             </div>
           </aside>
-
-          {/* Mobile Sticky Check Availability Button */}
-          <div className="xl:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-border shadow-2xl">
-            <a
-              href="#"
-              className="block w-full bg-accent text-center py-4 text-lg font-semibold text-white hover:bg-accent/90 transition"
-            >
-              Check Availability
-            </a>
-          </div>
         </div>
+      </div>
+
+      {/* Mobile Sticky Check Availability Button */}
+      <div className="xl:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-border shadow-2xl">
+        <a
+          href="#"
+          className="block w-full bg-accent text-center py-4 text-lg font-semibold text-white hover:bg-accent/90 transition"
+        >
+          Check Availability
+        </a>
       </div>
     </div>
   );
