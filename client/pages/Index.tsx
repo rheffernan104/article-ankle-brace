@@ -661,7 +661,7 @@ export default function Index() {
           </article>
 
           {/* Sticky Sidebar */}
-          <aside className="space-y-6 h-fit sticky top-24 hidden xl:block">
+          <aside className="space-y-6 h-fit sticky top-24 hidden lg:block">
             <div className="space-y-6 rounded-2xl bg-white p-6 shadow-xl ring-1 ring-border/60" id="order">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wider text-primary">LIMITED TIME</p>
