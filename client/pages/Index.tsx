@@ -225,7 +225,7 @@ export default function Index() {
                 Look, you're not the type to sit around complaining. You're here because you refuse to let foot pain steal your life. You've tried solutions before—you're proactive, you're committed, you take action—you just need something that actually works.
               </p>
               <p className="text-base leading-relaxed text-muted-foreground">
-                That's what Orthos is for: people like you who have high standards and demand real results.
+                That's what ORTHOS is for: people like you who have high standards and demand real results.
               </p>
               <p className="text-base leading-relaxed text-muted-foreground">
                 In other words: This doesn't just squeeze your foot. It doesn't just lock your ankle. It does what your ligaments and tendons are supposed to do—but can't anymore because of injury, strain, or years of wear.
