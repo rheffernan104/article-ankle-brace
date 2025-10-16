@@ -470,7 +470,11 @@ export default function Index() {
                 {testimonials.map((testimonial, index) => (
                   <div key={index} className="rounded-3xl bg-white overflow-hidden shadow-lg ring-1 ring-border/60 flex flex-col">
                     <div className="overflow-hidden">
-                      <div className="aspect-square bg-gray-300" />
+                      <img
+                        src={index === 0 ? "https://images.pexels.com/photos/28332542/pexels-photo-28332542.jpeg" : index === 1 ? "https://images.pexels.com/photos/20085710/pexels-photo-20085710.jpeg" : "https://images.pexels.com/photos/9476306/pexels-photo-9476306.jpeg"}
+                        alt={testimonial.author}
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <div className="p-6 bg-secondary flex flex-col justify-between flex-grow">
                       <div>
