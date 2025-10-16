@@ -259,13 +259,13 @@ export default function Index() {
                     </p>
                   </div>
                   <div className="overflow-hidden rounded-2xl">
-                    <div className="aspect-square bg-gray-300" />
+                    <img src="https://images.pexels.com/photos/6191213/pexels-photo-6191213.jpeg" alt="360 degree compression weave technology" className="w-full h-full object-cover" />
                   </div>
                 </div>
 
                 <div className="grid gap-8 md:grid-cols-2 md:items-center md:grid-flow-dense">
                   <div className="md:order-2 overflow-hidden rounded-2xl">
-                    <div className="aspect-square bg-gray-300" />
+                    <img src="https://images.pexels.com/photos/4005311/pexels-photo-4005311.jpeg" alt="Adjustable X-strap ankle stabilizers" className="w-full h-full object-cover" />
                   </div>
                   <div className="md:order-1">
                     <h3 className="text-2xl font-bold text-primary mb-4">The Adjustable X-Strap Stabilizers</h3>
