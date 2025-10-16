@@ -141,6 +141,11 @@ export default function Index() {
               </ul>
             </section>
 
+            {/* Lifestyle Image - Pain Illustration */}
+            <div className="overflow-hidden rounded-3xl shadow-xl">
+              <div className="aspect-square bg-gradient-to-br from-gray-300 to-gray-400" />
+            </div>
+
             {/* Expert Quote */}
             <section className="space-y-6 rounded-2xl border border-border bg-primary/5 p-6 md:p-8">
               <blockquote className="text-base italic leading-relaxed text-muted-foreground">
@@ -176,9 +181,9 @@ export default function Index() {
               </p>
             </section>
 
-            {/* Image Placeholder */}
-            <div className="overflow-hidden rounded-2xl">
-              <div className="aspect-video bg-gray-300" />
+            {/* Product Feature Image - Foot Anatomy */}
+            <div className="overflow-hidden rounded-3xl shadow-xl">
+              <div className="aspect-video bg-gradient-to-r from-blue-200 to-cyan-200" />
             </div>
 
             {/* The Solution */}
@@ -237,12 +242,18 @@ export default function Index() {
                 Here's what makes the Orthos Dual Support System™ completely different:
               </p>
 
+              {/* Product Layers Diagram */}
+              <div className="overflow-hidden rounded-3xl shadow-xl">
+                <div className="aspect-video bg-gradient-to-br from-indigo-200 to-purple-200" />
+              </div>
+
               <div className="space-y-8">
-                <div>
-                  <h3 className="text-2xl font-bold text-primary mb-4">The 360° Compression Weave</h3>
-                  <p className="text-base leading-relaxed text-muted-foreground mb-4">
-                    Unlike cheap drugstore sleeves that only squeeze in one direction (often cutting off circulation or sliding down your heel), Orthos uses a medical-grade compression fabric that applies graduated pressure across your entire foot and ankle.
-                  </p>
+                <div className="grid gap-8 md:grid-cols-2 md:items-center">
+                  <div>
+                    <h3 className="text-2xl font-bold text-primary mb-4">The 360° Compression Weave</h3>
+                    <p className="text-base leading-relaxed text-muted-foreground mb-4">
+                      Unlike cheap drugstore sleeves that only squeeze in one direction (often cutting off circulation or sliding down your heel), Orthos uses a medical-grade compression fabric that applies graduated pressure across your entire foot and ankle.
+                    </p>
                   <p className="text-base font-semibold text-foreground mb-4">What that means for you:</p>
                   <ul className="space-y-3 text-base text-muted-foreground">
                     <li className="flex items-start gap-3">
@@ -258,37 +269,51 @@ export default function Index() {
                       <span>Provides proprioceptive feedback—your brain gets better signals from your foot, so you feel more stable and confident</span>
                     </li>
                   </ul>
-                  <p className="text-base leading-relaxed text-muted-foreground mt-4">
-                    The result? Less morning stiffness. Less evening swelling. And that constant throbbing ache? It fades.
-                  </p>
+                    <p className="text-base leading-relaxed text-muted-foreground mt-4">
+                      The result? Less morning stiffness. Less evening swelling. And that constant throbbing ache? It fades.
+                    </p>
+                  </div>
+                  <div className="overflow-hidden rounded-2xl">
+                    <div className="aspect-square bg-gray-300" />
+                  </div>
                 </div>
 
-                <div>
-                  <h3 className="text-2xl font-bold text-primary mb-4">The Adjustable X-Strap Stabilizers</h3>
-                  <p className="text-base leading-relaxed text-muted-foreground mb-4">
-                    This is the breakthrough most other products completely miss. The X-Strap system wraps around your ankle and midfoot in a figure-8 pattern—the exact same technique athletic trainers use to prevent sprains in professional athletes.
-                  </p>
+                <div className="grid gap-8 md:grid-cols-2 md:items-center md:grid-flow-dense">
+                  <div className="md:order-2 overflow-hidden rounded-2xl">
+                    <div className="aspect-square bg-gray-300" />
+                  </div>
+                  <div className="md:order-1">
+                    <h3 className="text-2xl font-bold text-primary mb-4">The Adjustable X-Strap Stabilizers</h3>
+                    <p className="text-base leading-relaxed text-muted-foreground mb-4">
+                      This is the breakthrough most other products completely miss. The X-Strap system wraps around your ankle and midfoot in a figure-8 pattern—the exact same technique athletic trainers use to prevent sprains in professional athletes.
+                    </p>
                   <p className="text-base font-semibold text-foreground mb-4">Here's why it works:</p>
                   <p className="text-base leading-relaxed text-muted-foreground mb-4">
                     Your ankle has ligaments on both sides that prevent it from rolling inward or outward. When those ligaments are weak, strained, or injured, your ankle becomes unstable. You hesitate on curbs. You avoid uneven ground. You're always one wrong step away from twisting it again. The X-Straps mimic those ligaments.
                   </p>
-                  <p className="text-base leading-relaxed text-muted-foreground mb-4">
-                    They apply lateral stabilization—which means your ankle stays centered and aligned with every step, preventing the risky inversion and eversion movements that cause re-injury. And because the straps are adjustable, you control the level of support. Tighten them for a long shift or a hike. Loosen them slightly for casual wear. It's like having a sports brace and a compression sock in one—without the bulk.
-                  </p>
+                    <p className="text-base leading-relaxed text-muted-foreground mb-4">
+                      They apply lateral stabilization—which means your ankle stays centered and aligned with every step, preventing the risky inversion and eversion movements that cause re-injury. And because the straps are adjustable, you control the level of support. Tighten them for a long shift or a hike. Loosen them slightly for casual wear. It's like having a sports brace and a compression sock in one—without the bulk.
+                    </p>
+                  </div>
                 </div>
 
-                <div>
-                  <h3 className="text-2xl font-bold text-primary mb-4">Integrated Arch Lift & Heel Cushioning</h3>
-                  <p className="text-base leading-relaxed text-muted-foreground mb-4">
-                    The third piece of the puzzle: targeted arch support built into the sleeve itself. The compression weave is denser along your arch, creating a gentle lifting effect that takes pressure off your plantar fascia (that's the band of tissue that gets inflamed and causes that "knife in your heel" pain every morning).
-                  </p>
+                <div className="grid gap-8 md:grid-cols-2 md:items-center">
+                  <div>
+                    <h3 className="text-2xl font-bold text-primary mb-4">Integrated Arch Lift & Heel Cushioning</h3>
+                    <p className="text-base leading-relaxed text-muted-foreground mb-4">
+                      The third piece of the puzzle: targeted arch support built into the sleeve itself. The compression weave is denser along your arch, creating a gentle lifting effect that takes pressure off your plantar fascia (that's the band of tissue that gets inflamed and causes that "knife in your heel" pain every morning).
+                    </p>
                   <p className="text-base leading-relaxed text-muted-foreground mb-4">
                     At the same time, the sleeve's heel zone uses a softer, more cushioned knit to absorb impact with every step.
                   </p>
-                  <p className="text-base font-semibold text-foreground mb-4">The result?</p>
-                  <p className="text-base leading-relaxed text-muted-foreground">
-                    Your weight distributes evenly across your foot—instead of slamming into your heel or collapsing your arch. That stabbing pain? It stops being triggered. And your foot can finally start healing instead of re-straining.
-                  </p>
+                    <p className="text-base font-semibold text-foreground mb-4">The result?</p>
+                    <p className="text-base leading-relaxed text-muted-foreground">
+                      Your weight distributes evenly across your foot—instead of slamming into your heel or collapsing your arch. That stabbing pain? It stops being triggered. And your foot can finally start healing instead of re-straining.
+                    </p>
+                  </div>
+                  <div className="overflow-hidden rounded-2xl">
+                    <div className="aspect-square bg-gray-300" />
+                  </div>
                 </div>
               </div>
             </section>
