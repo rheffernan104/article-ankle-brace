@@ -69,8 +69,8 @@ export default function Index() {
           <article className="space-y-12">
             {/* Hero Section */}
             <section className="space-y-6">
-              <div className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-2 text-xs font-semibold uppercase tracking-wider text-primary">
-                Advertorial • Health & Wellness
+              <div className="inline-flex items-center gap-2 rounded-full bg-accent/20 px-4 py-2 text-xs font-bold uppercase tracking-wider text-accent">
+                Advertorial • Engineered Support
               </div>
 
               <h1 className="text-4xl leading-tight font-bold text-foreground sm:text-5xl md:text-6xl">
