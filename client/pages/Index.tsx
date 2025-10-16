@@ -469,7 +469,7 @@ export default function Index() {
 
             {/* Final CTA */}
             <section className="space-y-8 rounded-3xl bg-primary p-8 text-primary-foreground md:p-12">
-              <h2 className="font-display text-3xl md:text-4xl">Want Support That Actually Works?</h2>
+              <h2 className="text-3xl font-bold md:text-4xl">Want Support That Actually Works?</h2>
               <p className="text-base leading-relaxed max-w-2xl">
                 If you've read this far, you probably see yourself in one of those stories. Maybe you're the nurse who's tired of limping to the car. Maybe you're the parent who wants to play with your kids without wincing. Maybe you're the athlete who just wants to trust your ankle again. Maybe you're the traveler who's sick of swollen feet ruining every trip.
               </p>
@@ -483,7 +483,7 @@ export default function Index() {
 
             {/* How The Guarantee Works */}
             <section className="space-y-6">
-              <h3 className="font-display text-2xl text-foreground">Here's how it works:</h3>
+              <h3 className="text-2xl font-bold text-primary">Here's how it works:</h3>
               <ol className="space-y-3 text-base text-muted-foreground list-decimal list-inside">
                 <li>Order Orthos today. Wear it for a full 30 days—through your work shifts, your morning walks, your daily routine. Put it to the test in your real life.</li>
                 <li>If you don't feel a significant reduction in pain… if your ankle doesn't feel more stable… if your feet are still swollen and throbbing by evening… Just send it back. We'll refund every penny. No questions. No hassle.</li>
@@ -493,7 +493,7 @@ export default function Index() {
 
             {/* Limited Stock */}
             <section className="space-y-6 rounded-2xl border-2 border-accent bg-accent/10 p-6 md:p-8">
-              <h3 className="font-display text-2xl text-accent">Limited Stock Notice</h3>
+              <h3 className="text-2xl font-bold text-accent">Limited Stock Notice</h3>
               <p className="text-base leading-relaxed text-muted-foreground">
                 Here's something you should know: Orthos isn't mass-produced in some overseas warehouse. We manufacture in limited batches to maintain quality control—and right now, we're running low on inventory.
               </p>
@@ -569,7 +569,7 @@ export default function Index() {
 
             {/* FAQ */}
             <section className="space-y-6">
-              <h2 className="font-display text-3xl text-foreground">Still have questions?</h2>
+              <h2 className="text-3xl font-bold text-primary">Still have questions?</h2>
               
               <div className="space-y-6">
                 <div className="rounded-2xl border border-border p-6">
