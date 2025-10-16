@@ -63,7 +63,7 @@ export default function Index() {
         </div>
       </header>
 
-      <div className="container mx-auto px-4 py-12 md:py-16">
+      <div className="container mx-auto px-4 py-12 md:py-16 pb-80 md:pb-12">
         <div className="grid gap-12 xl:grid-cols-[minmax(0,1fr)_320px] xl:gap-16">
           {/* Main Content */}
           <article className="space-y-12">
