@@ -73,7 +73,7 @@ export default function Index() {
                 Advertorial • Health & Wellness
               </div>
 
-              <h1 className="font-display text-4xl leading-tight text-foreground sm:text-5xl md:text-6xl">
+              <h1 className="text-4xl leading-tight font-bold text-foreground sm:text-5xl md:text-6xl">
                 "I Work 12-Hour Shifts Without Limping Anymore" - Here's How Nurses, Teachers & Workers Over 40 Are Finally Ending Foot Pain
               </h1>
 
