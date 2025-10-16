@@ -64,8 +64,10 @@ export default function Index() {
                 <span>Last Updated: October 15, 2025</span>
               </div>
 
-              <div className="overflow-hidden rounded-2xl shadow-lg">
-                <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F9b98a335bb814b4db77f0037668854d6?format=webp&width=800" alt="Anatomical foot support system" className="w-full h-full object-cover" />
+              <div className="overflow-hidden rounded-3xl shadow-xl max-w-2xl mx-auto">
+                <div className="aspect-square bg-gradient-to-b from-gray-100 to-gray-50 flex items-center justify-center">
+                  <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F9b98a335bb814b4db77f0037668854d6?format=webp&width=800" alt="Anatomical foot support system" className="w-4/5 h-4/5 object-contain" />
+                </div>
               </div>
             </section>
 
