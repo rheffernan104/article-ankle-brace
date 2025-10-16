@@ -42,7 +42,7 @@ export default function Index() {
               href="#"
               className="text-sm font-semibold uppercase tracking-wide text-foreground hover:text-primary"
             >
-              Why Orthos
+              Why ORTHOS
             </a>
             <a
               href="#"
