@@ -676,7 +676,7 @@ export default function Index() {
 
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-4 w-4 fill-accent text-accent" />
+                  <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                 ))}
                 <span>4.7 out of 5 stars</span>
               </div>
@@ -685,7 +685,7 @@ export default function Index() {
                 href="#"
                 className="block w-full rounded-full bg-primary py-3 text-center font-semibold text-primary-foreground hover:bg-primary/90"
               >
-                Get ORTHOS Now
+                Get Orthos Now
               </a>
 
               <ul className="space-y-3 text-sm text-muted-foreground">
