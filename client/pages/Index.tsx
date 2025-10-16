@@ -673,7 +673,7 @@ export default function Index() {
 
               <a
                 href="https://orthos.store/products/ankle-brace"
-                className="block w-full rounded-full bg-primary py-3 text-center font-semibold text-primary-foreground hover:bg-primary/90 transition mt-2"
+                className="block w-full rounded-full bg-accent py-3 text-center font-semibold text-white hover:bg-accent/90 transition mt-2 shadow-md"
               >
                 Get Orthos Now
               </a>
