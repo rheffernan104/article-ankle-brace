@@ -66,7 +66,7 @@ export default function Index() {
 
               <div className="overflow-hidden rounded-3xl shadow-xl max-w-md mx-auto">
                 <div className="aspect-square bg-gradient-to-b from-gray-100 to-gray-50 flex items-center justify-center p-2">
-                  <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F9b98a335bb814b4db77f0037668854d6?format=webp&width=800" alt="Anatomical foot support system" className="w-full h-full object-contain" />
+                  <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F401612f129094a18b6b2b433557ba313?format=webp&width=800" alt="Healthcare professional nurse" className="w-full h-full object-cover" />
                 </div>
               </div>
             </section>
@@ -123,7 +123,7 @@ export default function Index() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-1 h-2 w-2 rounded-full bg-primary flex-none" />
-                  <span><span className="font-semibold text-foreground">Arch support insoles</span> lift your foot��but they do nothing for ankle wobble or evening swelling. And if your ankle rolls even slightly, that "supported" arch collapses right back into misalignment.</span>
+                  <span><span className="font-semibold text-foreground">Arch support insoles</span> lift your foot—but they do nothing for ankle wobble or evening swelling. And if your ankle rolls even slightly, that "supported" arch collapses right back into misalignment.</span>
                 </li>
               </ul>
             </section>
@@ -395,7 +395,7 @@ export default function Index() {
                 <div>
                   <h3 className="text-xl font-bold text-primary mb-3">② Breathable, Moisture-Wicking Design (No Sweat, No Smell)</h3>
                   <p className="text-base leading-relaxed text-muted-foreground mb-3">
-                    You know that awful feeling when your foot gets hot and clammy inside a neoprene brace? That's not just uncomfortable—it's unhealthy. Trapped moisture creates friction, blisters, and bacterial growth.
+                    You know that awful feeling when your foot gets hot and clammy inside a neoprene brace? That's not just uncomfortable��it's unhealthy. Trapped moisture creates friction, blisters, and bacterial growth.
                   </p>
                   <p className="text-base leading-relaxed text-muted-foreground">
                     Orthos is made with a breathable open-weave mesh on the top of the foot and ankle, with moisture-wicking channels that pull sweat away from your skin. <span className="font-semibold text-foreground">What that means:</span> You can wear it all day—through a 12-hour shift, a long flight, a full day of errands—and your foot stays dry, cool, and comfortable.
