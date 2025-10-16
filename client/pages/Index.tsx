@@ -363,7 +363,7 @@ export default function Index() {
             {/* Customer Story with Image */}
             <div className="grid gap-8 md:grid-cols-2 md:items-center rounded-3xl overflow-hidden shadow-lg">
               <div className="overflow-hidden rounded-2xl">
-                <div className="aspect-square bg-gray-300" />
+                <img src="https://images.pexels.com/photos/28332542/pexels-photo-28332542.jpeg" alt="Healthcare professional enjoying pain-free movement" className="w-full h-full object-cover" />
               </div>
               <section className="space-y-4 p-6 md:p-8 bg-primary/5 rounded-2xl">
                 <p className="text-base leading-relaxed text-muted-foreground">
