@@ -200,13 +200,13 @@ export default function Index() {
               </p>
             </section>
 
-            {/* About Orthos */}
+            {/* About ORTHOS */}
             <section className="space-y-6">
               <p className="text-base leading-relaxed text-muted-foreground">
                 This isn't another generic compression sock. And it's not one of those clunky sports braces that only athletes can tolerate.
               </p>
               <p className="text-base leading-relaxed text-muted-foreground">
-                Orthos wasn't born in a lab—it was born from frustration.
+                ORTHOS wasn't born in a lab—it was born from frustration.
               </p>
               <p className="text-base leading-relaxed text-muted-foreground">
                 After watching patient after patient fail with braces that only did half the job, our founder—a physical therapist and former college athlete who'd dealt with his own chronic ankle instability—partnered with orthopedic engineers to ask one simple question: "What if we could finally give people everything their foot needs… in one sleeve?"
