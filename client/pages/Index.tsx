@@ -567,7 +567,11 @@ export default function Index() {
               <div className="grid gap-4 md:grid-cols-4">
                 {[1, 2, 3, 4].map((i) => (
                   <div key={i} className="overflow-hidden rounded-2xl shadow-lg">
-                    <div className="aspect-square bg-gray-300" />
+                    <img
+                      src={i === 1 ? "https://images.pexels.com/photos/6191213/pexels-photo-6191213.jpeg" : i === 2 ? "https://images.pexels.com/photos/20085710/pexels-photo-20085710.jpeg" : i === 3 ? "https://images.pexels.com/photos/9476306/pexels-photo-9476306.jpeg" : "https://images.pexels.com/photos/28332542/pexels-photo-28332542.jpeg"}
+                      alt="Orthos customer success story"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 ))}
               </div>
