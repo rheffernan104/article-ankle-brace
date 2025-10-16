@@ -285,7 +285,7 @@ export default function Index() {
                   <div className="md:order-1">
                     <h3 className="text-2xl font-bold text-primary mb-4">The Adjustable X-Strap Stabilizers</h3>
                     <p className="text-base leading-relaxed text-muted-foreground mb-4">
-                      This is the breakthrough most other products completely miss. The X-Strap system wraps around your ankle and midfoot in a figure-8 pattern—the exact same technique athletic trainers use to prevent sprains in professional athletes.
+                      This is the breakthrough most other products completely miss. The X-Strap system wraps around your ankle and midfoot in a figure-8 pattern��the exact same technique athletic trainers use to prevent sprains in professional athletes.
                     </p>
                   <p className="text-base font-semibold text-foreground mb-4">Here's why it works:</p>
                   <p className="text-base leading-relaxed text-muted-foreground mb-4">
@@ -674,7 +674,7 @@ export default function Index() {
                 href="#"
                 className="block w-full rounded-full bg-primary py-3 text-center font-semibold text-primary-foreground hover:bg-primary/90"
               >
-                Get Orthos Now
+                Get ORTHOS Now
               </a>
 
               <ul className="space-y-3 text-sm text-muted-foreground">
