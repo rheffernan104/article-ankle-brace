@@ -321,7 +321,7 @@ export default function Index() {
 
             {/* Undo The Damage */}
             <section className="space-y-6">
-              <h2 className="font-display text-3xl text-foreground">Undo The Damage Done By Failed Braces & Unsupportive Footwear</h2>
+              <h2 className="text-3xl font-bold text-primary">Undo The Damage Done By Failed Braces & Unsupportive Footwear</h2>
               <p className="text-base leading-relaxed text-muted-foreground">
                 If you've been wearing cheap compression socks that roll down, or bulky braces that dig into your skin, or nothing at all because "nothing works anyway"… your foot has been re-injuring itself every single day.
               </p>
@@ -359,14 +359,14 @@ export default function Index() {
 
             {/* Why Orthos Works Section */}
             <section className="space-y-8">
-              <h2 className="font-display text-3xl text-foreground">Why Does Orthos Work When Others Failed?</h2>
+              <h2 className="text-3xl font-bold text-primary">Why Does Orthos Work When Others Failed?</h2>
               <p className="text-base leading-relaxed text-muted-foreground">
                 Let's break it down piece by piece, so you can see exactly why this is different from everything else you've tried:
               </p>
 
               <div className="space-y-8">
                 <div>
-                  <h3 className="font-display text-xl text-foreground mb-3">① Medical-Grade Compression Fabric (Not Cheap Elastic)</h3>
+                  <h3 className="text-xl font-bold text-primary mb-3">① Medical-Grade Compression Fabric (Not Cheap Elastic)</h3>
                   <p className="text-base leading-relaxed text-muted-foreground mb-3">
                     Most drugstore sleeves use basic spandex or nylon that loses elasticity after a few washes. The "compression" fades within weeks, and you're left with a loose sock that does nothing.
                   </p>
@@ -376,7 +376,7 @@ export default function Index() {
                 </div>
 
                 <div>
-                  <h3 className="font-display text-xl text-foreground mb-3">② Breathable, Moisture-Wicking Design (No Sweat, No Smell)</h3>
+                  <h3 className="text-xl font-bold text-primary mb-3">② Breathable, Moisture-Wicking Design (No Sweat, No Smell)</h3>
                   <p className="text-base leading-relaxed text-muted-foreground mb-3">
                     You know that awful feeling when your foot gets hot and clammy inside a neoprene brace? That's not just uncomfortable—it's unhealthy. Trapped moisture creates friction, blisters, and bacterial growth.
                   </p>
@@ -386,7 +386,7 @@ export default function Index() {
                 </div>
 
                 <div>
-                  <h3 className="font-display text-xl text-foreground mb-3">③ Slim, Low-Profile Fit (Works With Any Shoe)</h3>
+                  <h3 className="text-xl font-bold text-primary mb-3">③ Slim, Low-Profile Fit (Works With Any Shoe)</h3>
                   <p className="text-base leading-relaxed text-muted-foreground mb-3">
                     One of the biggest complaints about rigid ankle braces? "I can't get my shoe on over it."
                   </p>
@@ -396,7 +396,7 @@ export default function Index() {
                 </div>
 
                 <div>
-                  <h3 className="font-display text-xl text-foreground mb-3">④ Adjustable Tension = Customized Support</h3>
+                  <h3 className="text-xl font-bold text-primary mb-3">④ Adjustable Tension = Customized Support</h3>
                   <p className="text-base leading-relaxed text-muted-foreground mb-3">
                     Most "one size fits most" braces either cut off your circulation or provide zero stability. There's no in-between.
                   </p>
@@ -409,14 +409,14 @@ export default function Index() {
                 </div>
 
                 <div>
-                  <h3 className="font-display text-xl text-foreground mb-3">⑤ Left OR Right Foot (Universal Design)</h3>
+                  <h3 className="text-xl font-bold text-primary mb-3">⑤ Left OR Right Foot (Universal Design)</h3>
                   <p className="text-base leading-relaxed text-muted-foreground">
                     Unlike some braces that are "left foot only" or "right foot only," forcing you to buy two separate products, Orthos is ambidextrous. One sleeve. Either foot. Total flexibility. <span className="font-semibold text-foreground">What that means:</span> Lower cost. Simpler ordering. And if both feet hurt (like they do for many people with plantar fasciitis or general swelling), you can order a pair and be fully supported.
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="font-display text-xl text-foreground mb-3">⑥ Stays In Place (No Constant Re-Adjusting)</h3>
+                  <h3 className="text-xl font-bold text-primary mb-3">⑥ Stays In Place (No Constant Re-Adjusting)</h3>
                   <p className="text-base leading-relaxed text-muted-foreground mb-3">
                     Here's a complaint we heard over and over in our research: "I spend half my day pulling my sleeve back up."
                   </p>
@@ -429,7 +429,7 @@ export default function Index() {
 
             {/* Biggest Mistakes */}
             <section className="space-y-6">
-              <h2 className="font-display text-3xl text-foreground">One of the Biggest Mistakes People Make With Foot Pain Is Not Thinking About Joint Position & Alignment</h2>
+              <h2 className="text-3xl font-bold text-primary">One of the Biggest Mistakes People Make With Foot Pain Is Not Thinking About Joint Position & Alignment</h2>
               <p className="text-base leading-relaxed text-muted-foreground">
                 Memory foam insoles can cushion your heel. Compression socks can reduce swelling. Rigid braces can prevent twisting. But none of them address the root biomechanical issue: When your ankle isn't properly aligned, your entire kinetic chain—ankle, knee, hip, even lower back—compensates. You start walking differently to avoid pain. That uneven gait creates new problems in other joints.
               </p>
@@ -446,7 +446,7 @@ export default function Index() {
 
             {/* Testimonials */}
             <section className="space-y-8">
-              <h2 className="font-display text-3xl text-foreground">But Don't Just Take Our Word For It…</h2>
+              <h2 className="text-3xl font-bold text-primary">But Don't Just Take Our Word For It…</h2>
               <p className="text-base leading-relaxed text-muted-foreground">
                 When we launched Orthos, we weren't sure how people would respond. After all, the market is flooded with "miracle braces" that overpromise and underdeliver. But here's what happened: Within the first 90 days, over 12,000 customers ordered Orthos. And the reviews started pouring in. Not fake reviews. Not incentivized testimonials. Just real people, sharing what happened when they finally found something that worked.
               </p>
