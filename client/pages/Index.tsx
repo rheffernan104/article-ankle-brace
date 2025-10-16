@@ -574,7 +574,7 @@ export default function Index() {
 
             {/* Lifestyle Grid - Real People Stories */}
             <section className="space-y-8">
-              <h2 className="text-3xl font-bold text-primary">See the Difference Orthos Makes</h2>
+              <h2 className="text-3xl font-bold text-primary">See the Difference ORTHOS Makes</h2>
               <div className="grid gap-4 md:grid-cols-4">
                 {[1, 2, 3, 4].map((i) => (
                   <div key={i} className="overflow-hidden rounded-2xl shadow-lg">
