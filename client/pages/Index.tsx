@@ -33,25 +33,25 @@ export default function Index() {
           <div className="text-lg sm:text-2xl font-bold text-primary">ORTHOS</div>
           <nav className="hidden items-center gap-8 md:flex">
             <a
-              href="#"
+              href="https://orthos.store/products/ankle-brace"
               className="text-sm font-semibold uppercase tracking-wide text-foreground hover:text-primary"
             >
               Support
             </a>
             <a
-              href="#"
+              href="https://orthos.store/products/ankle-brace"
               className="text-sm font-semibold uppercase tracking-wide text-foreground hover:text-primary"
             >
               Why ORTHOS
             </a>
             <a
-              href="#"
+              href="https://orthos.store/products/ankle-brace"
               className="text-sm font-semibold uppercase tracking-wide text-foreground hover:text-primary"
             >
               Reviews
             </a>
             <a
-              href="#"
+              href="https://orthos.store/products/ankle-brace"
               className="text-sm font-semibold uppercase tracking-wide text-foreground hover:text-primary"
             >
               FAQ
