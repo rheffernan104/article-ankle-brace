@@ -169,7 +169,7 @@ export default function Index() {
             </section>
 
             {/* Product Feature Image - ORTHOS in Use */}
-            <div className="overflow-hidden rounded-3xl shadow-xl max-w-sm mx-auto">
+            <div className="overflow-hidden rounded-3xl shadow-xl max-w-2xl mx-auto">
               <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F6147b49a2290431586e92589150e6a4e?format=webp&width=800" alt="ORTHOS ankle brace in daily use" className="w-full h-full object-cover" />
             </div>
 
