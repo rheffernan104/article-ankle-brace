@@ -298,7 +298,7 @@ export default function Index() {
                       Your weight distributes evenly across your foot—instead of slamming into your heel or collapsing your arch. That stabbing pain? It stops being triggered. And your foot can finally start healing instead of re-straining.
                     </p>
                   </div>
-                  <div className="overflow-hidden rounded-2xl">
+                  <div className="overflow-hidden rounded-2xl max-w-sm mx-auto">
                     <img src="https://images.pexels.com/photos/6191213/pexels-photo-6191213.jpeg" alt="Integrated arch lift and heel cushioning" className="w-full h-full object-cover" />
                   </div>
                 </div>
