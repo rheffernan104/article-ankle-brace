@@ -481,17 +481,26 @@ export default function Index() {
                 When we launched Orthos, we weren't sure how people would respond. After all, the market is flooded with "miracle braces" that overpromise and underdeliver. But here's what happened: Within the first 90 days, over 12,000 customers ordered Orthos. And the reviews started pouring in. Not fake reviews. Not incentivized testimonials. Just real people, sharing what happened when they finally found something that worked.
               </p>
 
-              <div className="space-y-6">
+              <div className="grid gap-6 md:grid-cols-3">
                 {testimonials.map((testimonial, index) => (
-                  <div key={index} className="rounded-2xl bg-secondary p-6 md:p-8">
-                    <p className="text-sm font-semibold uppercase tracking-wider text-primary mb-4">
-                      {testimonial.highlight}
-                    </p>
-                    <blockquote className="text-base leading-relaxed text-muted-foreground mb-6">
-                      "{testimonial.quote}"
-                    </blockquote>
-                    <p className="font-semibold text-foreground">{testimonial.author}</p>
-                    <p className="text-sm text-muted-foreground">{testimonial.location}</p>
+                  <div key={index} className="rounded-3xl bg-white overflow-hidden shadow-lg ring-1 ring-border/60 flex flex-col">
+                    <div className="overflow-hidden">
+                      <div className="aspect-square bg-gray-300" />
+                    </div>
+                    <div className="p-6 bg-secondary flex flex-col justify-between flex-grow">
+                      <div>
+                        <p className="text-sm font-semibold uppercase tracking-wider text-primary mb-4">
+                          {testimonial.highlight}
+                        </p>
+                        <blockquote className="text-base leading-relaxed text-muted-foreground mb-6">
+                          "{testimonial.quote}"
+                        </blockquote>
+                      </div>
+                      <div>
+                        <p className="font-semibold text-foreground">{testimonial.author}</p>
+                        <p className="text-sm text-muted-foreground">{testimonial.location}</p>
+                      </div>
+                    </div>
                   </div>
                 ))}
               </div>
