@@ -709,6 +709,53 @@ export default function Index() {
               </ul>
             </div>
           </aside>
+
+          {/* Mobile Sticky Sidebar */}
+          <aside className="xl:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-border shadow-2xl max-h-96 overflow-y-auto">
+            <div className="container mx-auto px-4 py-4">
+              <div className="space-y-4 rounded-2xl bg-white p-4">
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-wider text-primary">LIMITED TIME</p>
+                  <h3 className="mt-1 text-lg font-bold text-primary">ORTHOS FOOT SLEEVE AND ANKLE SUPPORT STRAP</h3>
+                </div>
+
+                <div className="flex items-baseline gap-3">
+                  <span className="text-3xl font-bold text-primary">$39</span>
+                  <span className="text-xs font-semibold text-muted-foreground line-through">$79</span>
+                  <span className="rounded-full bg-accent/20 px-2 py-0.5 text-xs font-semibold text-accent">50% OFF</span>
+                </div>
+
+                <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-3 w-3 fill-accent text-accent" />
+                  ))}
+                  <span>4.7 out of 5 stars</span>
+                </div>
+
+                <a
+                  href="#"
+                  className="block w-full rounded-full bg-primary py-2 text-center text-sm font-semibold text-primary-foreground hover:bg-primary/90"
+                >
+                  Get Orthos Now
+                </a>
+
+                <ul className="space-y-2 text-xs text-muted-foreground">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="mt-0.5 h-3 w-3 text-primary flex-none" />
+                    <span>Free shipping on all orders</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="mt-0.5 h-3 w-3 text-primary flex-none" />
+                    <span>Fits any shoe</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="mt-0.5 h-3 w-3 text-primary flex-none" />
+                    <span>All day comfort</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
         </div>
       </div>
     </div>
