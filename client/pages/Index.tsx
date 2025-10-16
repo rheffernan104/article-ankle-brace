@@ -112,7 +112,7 @@ export default function Index() {
 
             {/* Why Most Braces Fail */}
             <section className="space-y-6">
-              <h2 className="font-display text-3xl text-foreground">The Real Reason Most Braces, Sleeves & Inserts Fail (And Keep You in Pain)</h2>
+              <h2 className="text-3xl font-bold text-primary">The Real Reason Most Braces, Sleeves & Inserts Fail (And Keep You in Pain)</h2>
               <p className="text-base leading-relaxed text-muted-foreground">
                 Managing foot pain the right way can be the most effective strategy to avoid injections, surgery, and a life spent calculating every step.
               </p>
