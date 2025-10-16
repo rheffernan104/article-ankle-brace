@@ -516,7 +516,7 @@ export default function Index() {
                 Here's what we know: You've tried other solutions. They didn't work—or they worked for a week and then stopped. You're skeptical. You're frustrated. And you're probably thinking, "Yeah, this sounds good, but how do I know it'll work for ME?"
               </p>
               <p className="text-base leading-relaxed max-w-2xl font-semibold">
-                Fair question. That's why we're backing Orthos with a 30-Day Pain-Free Guarantee.
+                Fair question. That's why we're backing ORTHOS with a 30-Day Pain-Free Guarantee.
               </p>
             </section>
 
