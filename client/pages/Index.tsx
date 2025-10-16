@@ -260,7 +260,7 @@ export default function Index() {
                       The result? Less morning stiffness. Less evening swelling. And that constant throbbing ache? It fades.
                     </p>
                   </div>
-                  <div className="overflow-hidden rounded-2xl">
+                  <div className="overflow-hidden rounded-2xl max-w-sm mx-auto">
                     <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F89474dd364344b518f6f310a644e91f6?format=webp&width=800" alt="360 degree compression weave technology" className="w-full h-full object-cover" />
                   </div>
                 </div>
