@@ -570,7 +570,7 @@ export default function Index() {
                 {[1, 2, 3, 4].map((i) => (
                   <div key={i} className="overflow-hidden rounded-2xl shadow-lg">
                     <img
-                      src={i === 1 ? "https://images.pexels.com/photos/6191213/pexels-photo-6191213.jpeg" : i === 2 ? "https://images.pexels.com/photos/20085710/pexels-photo-20085710.jpeg" : i === 3 ? "https://images.pexels.com/photos/9476306/pexels-photo-9476306.jpeg" : "https://images.pexels.com/photos/28332542/pexels-photo-28332542.jpeg"}
+                      src={i === 1 ? "https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F03415596f7dd4b6d8c33987f3dcf7b2f?format=webp&width=800" : i === 2 ? "https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fb017d59f33da4b85b66b0e6a4d25e8d4?format=webp&width=800" : i === 3 ? "https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fe205f8bb6f1340d4bcabf6ec68cbc0d3?format=webp&width=800" : "https://images.pexels.com/photos/28332542/pexels-photo-28332542.jpeg"}
                       alt="Orthos customer success story"
                       className="w-full h-full object-cover"
                     />
