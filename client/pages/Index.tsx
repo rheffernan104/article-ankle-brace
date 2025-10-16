@@ -577,7 +577,7 @@ export default function Index() {
                 href="#order"
                 className="inline-flex items-center gap-3 rounded-full bg-white px-8 py-4 text-base font-semibold text-primary hover:bg-secondary transition"
               >
-                See How ORTHOS Can Work For You
+                See How Orthos Can Work For You
                 <ArrowRight className="h-5 w-5" />
               </a>
               <p className="text-sm">30-Day Money-Back Guarantee | Free Shipping | Secure Checkout</p>
