@@ -73,14 +73,25 @@ export default function Index() {
                 Advertorial • Engineered Support
               </div>
 
-              <h1 className="text-2xl leading-tight font-bold text-foreground sm:text-4xl md:text-6xl">
+              <h1 className="text-3xl leading-tight font-bold text-foreground sm:text-4xl md:text-6xl">
                 "I Work 12-Hour Shifts Without Limping Anymore" - Here's How Nurses, Teachers & Workers Over 40 Are Finally Ending Foot Pain
               </h1>
+
+              <div className="flex items-center gap-2">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                ))}
+                <span className="text-sm font-semibold text-foreground">5.0</span>
+              </div>
 
               <div className="flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                 <span>By Sarah Mitchell</span>
                 <span>•</span>
                 <span>Last Updated: October 15, 2025</span>
+              </div>
+
+              <div className="overflow-hidden rounded-2xl shadow-lg">
+                <div className="aspect-video bg-gradient-to-br from-blue-200 to-teal-200" />
               </div>
             </section>
 
