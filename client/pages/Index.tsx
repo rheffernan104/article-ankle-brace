@@ -682,7 +682,7 @@ export default function Index() {
               </div>
 
               <a
-                href="#"
+                href="https://orthos.store/products/ankle-brace"
                 className="block w-full rounded-full bg-primary py-3 text-center font-semibold text-primary-foreground hover:bg-primary/90"
               >
                 Get Orthos Now
