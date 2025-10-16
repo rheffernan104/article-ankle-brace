@@ -64,9 +64,9 @@ export default function Index() {
                 <span>Last Updated: October 15, 2025</span>
               </div>
 
-              <div className="overflow-hidden rounded-3xl shadow-xl max-w-sm mx-auto">
-                <div className="aspect-square bg-gradient-to-b from-gray-100 to-gray-50 flex items-center justify-center">
-                  <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F9b98a335bb814b4db77f0037668854d6?format=webp&width=800" alt="Anatomical foot support system" className="w-4/5 h-4/5 object-contain" />
+              <div className="overflow-hidden rounded-3xl shadow-xl max-w-md mx-auto">
+                <div className="aspect-square bg-gradient-to-b from-gray-100 to-gray-50 flex items-center justify-center p-2">
+                  <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F9b98a335bb814b4db77f0037668854d6?format=webp&width=800" alt="Anatomical foot support system" className="w-full h-full object-contain" />
                 </div>
               </div>
             </section>
@@ -123,7 +123,7 @@ export default function Index() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-1 h-2 w-2 rounded-full bg-primary flex-none" />
-                  <span><span className="font-semibold text-foreground">Arch support insoles</span> lift your foot—but they do nothing for ankle wobble or evening swelling. And if your ankle rolls even slightly, that "supported" arch collapses right back into misalignment.</span>
+                  <span><span className="font-semibold text-foreground">Arch support insoles</span> lift your foot��but they do nothing for ankle wobble or evening swelling. And if your ankle rolls even slightly, that "supported" arch collapses right back into misalignment.</span>
                 </li>
               </ul>
             </section>
