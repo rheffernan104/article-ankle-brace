@@ -156,15 +156,15 @@ export default function Index() {
               </p>
               <div className="grid gap-6 md:grid-cols-3">
                 <div className="rounded-2xl bg-secondary p-6">
-                  <p className="font-display text-xl text-primary mb-2">Stabilization</p>
+                  <p className="text-xl font-bold text-primary mb-2">Stabilization</p>
                   <p className="text-sm text-muted-foreground">To prevent risky ankle roll and keep your joints aligned</p>
                 </div>
                 <div className="rounded-2xl bg-secondary p-6">
-                  <p className="font-display text-xl text-primary mb-2">Compression</p>
+                  <p className="text-xl font-bold text-primary mb-2">Compression</p>
                   <p className="text-sm text-muted-foreground">To boost circulation, reduce inflammation, and calm swelling</p>
                 </div>
                 <div className="rounded-2xl bg-secondary p-6">
-                  <p className="font-display text-xl text-primary mb-2">Arch Support</p>
+                  <p className="text-xl font-bold text-primary mb-2">Arch Support</p>
                   <p className="text-sm text-muted-foreground">To take pressure off the plantar fascia and distribute weight evenly</p>
                 </div>
               </div>
@@ -232,14 +232,14 @@ export default function Index() {
 
             {/* How Orthos Works */}
             <section className="space-y-8">
-              <h2 className="font-display text-3xl text-foreground">How Orthos Restores Natural Foot Function (When Everything Else Failed)</h2>
+              <h2 className="text-3xl font-bold text-primary">How Orthos Restores Natural Foot Function (When Everything Else Failed)</h2>
               <p className="text-base leading-relaxed text-muted-foreground">
                 Here's what makes the Orthos Dual Support System™ completely different:
               </p>
 
               <div className="space-y-8">
                 <div>
-                  <h3 className="font-display text-2xl text-foreground mb-4">The 360° Compression Weave</h3>
+                  <h3 className="text-2xl font-bold text-primary mb-4">The 360° Compression Weave</h3>
                   <p className="text-base leading-relaxed text-muted-foreground mb-4">
                     Unlike cheap drugstore sleeves that only squeeze in one direction (often cutting off circulation or sliding down your heel), Orthos uses a medical-grade compression fabric that applies graduated pressure across your entire foot and ankle.
                   </p>
@@ -264,7 +264,7 @@ export default function Index() {
                 </div>
 
                 <div>
-                  <h3 className="font-display text-2xl text-foreground mb-4">The Adjustable X-Strap Stabilizers</h3>
+                  <h3 className="text-2xl font-bold text-primary mb-4">The Adjustable X-Strap Stabilizers</h3>
                   <p className="text-base leading-relaxed text-muted-foreground mb-4">
                     This is the breakthrough most other products completely miss. The X-Strap system wraps around your ankle and midfoot in a figure-8 pattern—the exact same technique athletic trainers use to prevent sprains in professional athletes.
                   </p>
@@ -278,7 +278,7 @@ export default function Index() {
                 </div>
 
                 <div>
-                  <h3 className="font-display text-2xl text-foreground mb-4">Integrated Arch Lift & Heel Cushioning</h3>
+                  <h3 className="text-2xl font-bold text-primary mb-4">Integrated Arch Lift & Heel Cushioning</h3>
                   <p className="text-base leading-relaxed text-muted-foreground mb-4">
                     The third piece of the puzzle: targeted arch support built into the sleeve itself. The compression weave is denser along your arch, creating a gentle lifting effect that takes pressure off your plantar fascia (that's the band of tissue that gets inflamed and causes that "knife in your heel" pain every morning).
                   </p>
@@ -295,7 +295,7 @@ export default function Index() {
 
             {/* What This Means For You */}
             <section className="space-y-6">
-              <h2 className="font-display text-3xl text-foreground">What This Means for You (In Plain English)</h2>
+              <h2 className="text-3xl font-bold text-primary">What This Means for You (In Plain English)</h2>
               <p className="text-base leading-relaxed text-muted-foreground">
                 Let's say you're a nurse doing a 12-hour shift. Or a teacher on your feet all day. Or a parent who just wants to walk through the grocery store without limping. Here's what happens when you put on Orthos:
               </p>
