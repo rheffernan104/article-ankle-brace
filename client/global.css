@@ -1,5 +1,5 @@
 /** @import must precede all other statements */
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@400;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -12,89 +12,88 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
+    /* ORTHOS Primary Colors */
     --background: 0 0% 100%;
-    --foreground: 216 33% 12%;
+    --foreground: 210 32% 29%; /* Warm Charcoal #2C3E50 */
 
     --card: 0 0% 100%;
-    --card-foreground: 216 33% 12%;
+    --card-foreground: 210 32% 29%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 216 33% 12%;
+    --popover-foreground: 210 32% 29%;
 
-    --primary: 216 71% 35%;
-    --primary-foreground: 210 40% 98%;
+    /* Deep Teal - Primary Brand Color */
+    --primary: 199 65% 30%; /* #1A5F7A */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 216 65% 96%;
-    --secondary-foreground: 217 32% 24%;
+    /* Soft Sky Blue - Secondary */
+    --secondary: 198 52% 92%; /* Light sky blue background */
+    --secondary-foreground: 210 32% 29%;
 
-    --muted: 216 24% 92%;
-    --muted-foreground: 215 17% 38%;
+    /* Slate Gray - Muted text */
+    --muted: 210 20% 93%; /* Border Gray #E2E8F0 */
+    --muted-foreground: 215 28% 49%; /* Slate Gray #4A5568 */
 
-    --accent: 24 94% 59%;
-    --accent-foreground: 0 0% 100%;
+    /* Fresh Mint - Success/positive states */
+    --accent: 153 53% 67%; /* #7FD8BE */
+    --accent-foreground: 210 32% 29%;
 
-    --destructive: 2 83% 54%;
-    --destructive-foreground: 210 40% 98%;
+    /* Coral Alert - Urgency (use sparingly) */
+    --destructive: 5 72% 67%; /* #E17B77 */
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214 20% 88%;
-    --input: 214 20% 88%;
-    --ring: 216 71% 35%;
+    --border: 210 17% 93%; /* Border Gray */
+    --input: 210 17% 93%;
+    --ring: 199 65% 30%; /* Deep Teal */
 
     --radius: 0.6rem;
 
     --sidebar-background: 0 0% 100%;
-
-    --sidebar-foreground: 216 33% 12%;
-
-    --sidebar-primary: 216 71% 35%;
-
+    --sidebar-foreground: 210 32% 29%;
+    --sidebar-primary: 199 65% 30%;
     --sidebar-primary-foreground: 0 0% 100%;
-
-    --sidebar-accent: 216 65% 96%;
-
-    --sidebar-accent-foreground: 216 33% 12%;
-
-    --sidebar-border: 214 20% 88%;
-
-    --sidebar-ring: 216 71% 35%;
+    --sidebar-accent: 198 52% 92%;
+    --sidebar-accent-foreground: 210 32% 29%;
+    --sidebar-border: 210 17% 93%;
+    --sidebar-ring: 199 65% 30%;
   }
 
   .dark {
-    --background: 216 33% 12%;
-    --foreground: 210 40% 98%;
+    --background: 210 32% 14%;
+    --foreground: 0 0% 98%;
 
-    --card: 216 33% 12%;
-    --card-foreground: 210 40% 98%;
+    --card: 210 32% 14%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 216 33% 12%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 210 32% 14%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 210 60% 70%;
-    --primary-foreground: 222 47% 16%;
+    --primary: 198 42% 70%; /* Lighter teal for dark mode */
+    --primary-foreground: 210 32% 14%;
 
-    --secondary: 220 30% 22%;
-    --secondary-foreground: 210 40% 96%;
+    --secondary: 199 35% 24%;
+    --secondary-foreground: 0 0% 96%;
 
-    --muted: 220 25% 24%;
-    --muted-foreground: 216 20% 78%;
+    --muted: 210 25% 22%;
+    --muted-foreground: 210 20% 76%;
 
-    --accent: 28 92% 64%;
-    --accent-foreground: 222 47% 16%;
+    --accent: 153 53% 67%;
+    --accent-foreground: 210 32% 14%;
 
-    --destructive: 0 72% 50%;
-    --destructive-foreground: 210 40% 96%;
+    --destructive: 5 72% 67%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 220 24% 28%;
-    --input: 220 24% 28%;
-    --ring: 210 60% 70%;
-    --sidebar-background: 220 26% 18%;
-    --sidebar-foreground: 210 40% 96%;
-    --sidebar-primary: 210 60% 70%;
-    --sidebar-primary-foreground: 222 47% 16%;
-    --sidebar-accent: 220 28% 26%;
-    --sidebar-accent-foreground: 210 40% 96%;
-    --sidebar-border: 220 20% 28%;
-    --sidebar-ring: 210 60% 70%;
+    --border: 210 20% 22%;
+    --input: 210 20% 22%;
+    --ring: 198 42% 70%;
+    --sidebar-background: 210 32% 10%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 198 42% 70%;
+    --sidebar-primary-foreground: 210 32% 14%;
+    --sidebar-accent: 199 35% 24%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 210 20% 22%;
+    --sidebar-ring: 198 42% 70%;
   }
 }
 
@@ -108,7 +107,23 @@
   }
 
   :where(h1, h2, h3, h4, h5, h6) {
-    @apply font-display tracking-tight text-foreground;
+    @apply tracking-tight text-foreground;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-bold;
+  }
+
+  h1 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  h2 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl text-primary;
   }
 
   :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
