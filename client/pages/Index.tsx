@@ -574,7 +574,7 @@ export default function Index() {
             {/* CTA Final */}
             <section className="space-y-6 rounded-3xl bg-primary p-8 text-primary-foreground md:p-12">
               <a
-                href="#order"
+                href="https://orthos.store/products/ankle-brace"
                 className="inline-flex items-center gap-3 rounded-full bg-white px-8 py-4 text-base font-semibold text-primary hover:bg-secondary transition"
               >
                 See How Orthos Can Work For You
