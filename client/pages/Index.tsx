@@ -64,7 +64,7 @@ export default function Index() {
                 <span>Last Updated: October 15, 2025</span>
               </div>
 
-              <div className="overflow-hidden rounded-3xl shadow-xl max-w-3xl mx-auto">
+              <div className="overflow-hidden rounded-3xl shadow-xl max-w-xl mx-auto">
                 <div className="aspect-square bg-gradient-to-b from-gray-100 to-gray-50 flex items-center justify-center p-2">
                   <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F401612f129094a18b6b2b433557ba313?format=webp&width=800" alt="Healthcare professional nurse" className="w-full h-full object-cover" />
                 </div>
