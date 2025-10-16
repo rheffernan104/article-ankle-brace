@@ -229,9 +229,9 @@ export default function Index() {
                 Here's what makes the ORTHOS Dual Support System™ completely different:
               </p>
 
-              {/* Product Layers Diagram */}
+              {/* Product Showcase - Ankle Brace */}
               <div className="overflow-hidden rounded-3xl shadow-xl">
-                <img src="https://images.pexels.com/photos/6191213/pexels-photo-6191213.jpeg" alt="Orthos compression support system" className="w-full h-full object-cover" />
+                <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F7670250287474421a3fedab995952ce4?format=webp&width=800" alt="ORTHOS dual support compression system" className="w-full h-full object-cover" />
               </div>
 
               <div className="space-y-8">
