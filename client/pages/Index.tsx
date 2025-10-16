@@ -183,7 +183,7 @@ export default function Index() {
 
             {/* The Solution */}
             <section className="space-y-6">
-              <h2 className="font-display text-3xl text-foreground">Finally, Walk Without Calculating Every Step…</h2>
+              <h2 className="text-3xl font-bold text-primary">Finally, Walk Without Calculating Every Step…</h2>
               <p className="text-base leading-relaxed text-muted-foreground">
                 What if you could slip on one simple sleeve in the morning—no laces, no complicated wrapping—and feel immediate support where you need it most?
               </p>
