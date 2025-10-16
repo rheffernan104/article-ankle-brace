@@ -31,32 +31,6 @@ export default function Index() {
       <header className="sticky top-0 z-50 border-b border-border bg-white/95 shadow-sm">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <div className="text-lg sm:text-2xl font-bold text-primary">ORTHOS</div>
-          <nav className="hidden items-center gap-8 md:flex">
-            <a
-              href="https://orthos.store/products/ankle-brace"
-              className="text-sm font-semibold uppercase tracking-wide text-foreground hover:text-primary"
-            >
-              Support
-            </a>
-            <a
-              href="https://orthos.store/products/ankle-brace"
-              className="text-sm font-semibold uppercase tracking-wide text-foreground hover:text-primary"
-            >
-              Why ORTHOS
-            </a>
-            <a
-              href="https://orthos.store/products/ankle-brace"
-              className="text-sm font-semibold uppercase tracking-wide text-foreground hover:text-primary"
-            >
-              Reviews
-            </a>
-            <a
-              href="https://orthos.store/products/ankle-brace"
-              className="text-sm font-semibold uppercase tracking-wide text-foreground hover:text-primary"
-            >
-              FAQ
-            </a>
-          </nav>
           <a href="https://orthos.store/products/ankle-brace" className="rounded-full bg-primary px-6 py-2 text-sm font-semibold text-primary-foreground hover:bg-primary/90 inline-block">
             Order Now
           </a>
