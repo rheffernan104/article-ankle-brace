@@ -365,7 +365,7 @@ export default function Index() {
             {/* Customer Story with Image */}
             <div className="grid gap-8 md:grid-cols-2 md:items-center rounded-3xl overflow-hidden shadow-lg">
               <div className="overflow-hidden rounded-2xl">
-                <img src="https://images.pexels.com/photos/28332542/pexels-photo-28332542.jpeg" alt="Healthcare professional enjoying pain-free movement" className="w-full h-full object-cover" />
+                <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F93b34031aeb748da9b81a001a2b7a731?format=webp&width=800" alt="Linda M, 52-year-old retail manager" className="w-full h-full object-cover" />
               </div>
               <section className="space-y-4 p-6 md:p-8 bg-primary/5 rounded-2xl">
                 <p className="text-base leading-relaxed text-muted-foreground">
