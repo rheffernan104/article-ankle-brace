@@ -30,7 +30,7 @@ export default function Index() {
       {/* Header Navigation */}
       <header className="sticky top-0 z-50 border-b border-border bg-white/95 shadow-sm">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
-          <div className="text-2xl font-bold text-primary">Orthos</div>
+          <div className="text-lg sm:text-2xl font-bold text-primary">ORTHOS</div>
           <nav className="hidden items-center gap-8 md:flex">
             <a
               href="#"
