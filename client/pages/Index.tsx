@@ -229,7 +229,7 @@ export default function Index() {
 
               {/* Product Layers Diagram */}
               <div className="overflow-hidden rounded-3xl shadow-xl">
-                <div className="aspect-video bg-gradient-to-br from-indigo-200 to-purple-200" />
+                <img src="https://images.pexels.com/photos/6191213/pexels-photo-6191213.jpeg" alt="Orthos compression support system" className="w-full h-full object-cover" />
               </div>
 
               <div className="space-y-8">
