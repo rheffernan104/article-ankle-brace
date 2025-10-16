@@ -375,12 +375,17 @@ export default function Index() {
               </p>
             </section>
 
-            {/* Customer Story */}
-            <section className="space-y-4 rounded-2xl border border-border bg-primary/5 p-6 md:p-8">
-              <p className="text-base leading-relaxed text-muted-foreground">
-                One user, Linda M., a 52-year-old retail manager, put it this way: "I'd been dealing with plantar fasciitis for over a year. Tried stretches, ice, a night splint I couldn't sleep in. Nothing worked. I was about to schedule a cortisone shot. Then I tried Orthos. Within three days, I could walk to my car without limping. Within two weeks, that morning 'knife in my heel' was just… gone. I don't know how else to say it—this thing gave me my life back."
-              </p>
-            </section>
+            {/* Customer Story with Image */}
+            <div className="grid gap-8 md:grid-cols-2 md:items-center rounded-3xl overflow-hidden shadow-lg">
+              <div className="overflow-hidden rounded-2xl">
+                <div className="aspect-square bg-gray-300" />
+              </div>
+              <section className="space-y-4 p-6 md:p-8 bg-primary/5 rounded-2xl">
+                <p className="text-base leading-relaxed text-muted-foreground">
+                  One user, Linda M., a 52-year-old retail manager, put it this way: "I'd been dealing with plantar fasciitis for over a year. Tried stretches, ice, a night splint I couldn't sleep in. Nothing worked. I was about to schedule a cortisone shot. Then I tried Orthos. Within three days, I could walk to my car without limping. Within two weeks, that morning 'knife in my heel' was just… gone. I don't know how else to say it—this thing gave me my life back."
+                </p>
+              </section>
+            </div>
 
             {/* Why Orthos Works Section */}
             <section className="space-y-8">
