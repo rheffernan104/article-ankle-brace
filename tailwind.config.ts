@@ -59,9 +59,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["'Source Sans 3'", "sans-serif"],
-        display: ["'Playfair Display'", "serif"],
-        accent: ["'Source Sans 3'", "sans-serif"],
+        sans: ["Inter", "sans-serif"],
+        serif: ["Lora", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
