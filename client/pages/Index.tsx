@@ -128,7 +128,7 @@ export default function Index() {
 
             {/* Lifestyle Image - Pain Illustration */}
             <div className="overflow-hidden rounded-3xl shadow-xl">
-              <div className="aspect-square bg-gradient-to-br from-gray-300 to-gray-400" />
+              <img src="https://images.pexels.com/photos/4005311/pexels-photo-4005311.jpeg" alt="Ankle injury care and relief treatment" className="w-full h-full object-cover" />
             </div>
 
             {/* Expert Quote */}
