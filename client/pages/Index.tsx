@@ -726,7 +726,7 @@ export default function Index() {
       {/* Mobile Sticky Check Availability Button */}
       <div className="lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-border shadow-2xl">
         <a
-          href="#"
+          href="https://orthos.store/products/ankle-brace"
           className="block w-full bg-accent text-center py-4 text-lg font-semibold text-white hover:bg-accent/90 transition"
         >
           Check Availability
