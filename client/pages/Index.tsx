@@ -678,7 +678,7 @@ export default function Index() {
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                 ))}
-                <span>4.7 out of 5 stars</span>
+                <span>4.7 / 5 stars</span>
               </div>
 
               <a
