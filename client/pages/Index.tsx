@@ -471,7 +471,7 @@ export default function Index() {
                   <div key={index} className="rounded-3xl bg-white overflow-hidden shadow-lg ring-1 ring-border/60 flex flex-col">
                     <div className="overflow-hidden">
                       <img
-                        src={index === 0 ? "https://images.pexels.com/photos/28332542/pexels-photo-28332542.jpeg" : index === 1 ? "https://images.pexels.com/photos/20085710/pexels-photo-20085710.jpeg" : "https://images.pexels.com/photos/9476306/pexels-photo-9476306.jpeg"}
+                        src={index === 0 ? "https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F6a144f49f2ac4274b120251dedfc9d05?format=webp&width=800" : index === 1 ? "https://images.pexels.com/photos/20085710/pexels-photo-20085710.jpeg" : "https://images.pexels.com/photos/9476306/pexels-photo-9476306.jpeg"}
                         alt={testimonial.author}
                         className="w-full h-full object-cover"
                       />
