@@ -196,7 +196,7 @@ export default function Index() {
                 What if that same sleeve kept your ankle stable on stairs, reduced swelling during long shifts, and fit inside your normal work shoes without adding bulk?
               </p>
               <p className="text-base leading-relaxed text-muted-foreground">
-                That's exactly what the Orthos Foot Sleeve & Ankle Support Strap was designed to do.
+                That's exactly what the ORTHOS Foot Sleeve & Ankle Support Strap was designed to do.
               </p>
             </section>
 
