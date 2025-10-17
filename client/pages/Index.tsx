@@ -64,10 +64,8 @@ export default function Index() {
                 <span>Last Updated: October 15, 2025</span>
               </div>
 
-              <div className="overflow-hidden rounded-3xl shadow-xl max-w-xl mx-auto">
-                <div className="aspect-square bg-gradient-to-b from-gray-100 to-gray-50 flex items-center justify-center p-2">
-                  <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F9760aa02bbff40bb8f5fbc96e1165bc0?format=webp&width=800" alt="Anatomical illustration of foot and heel pain" className="w-full h-full object-cover" />
-                </div>
+              <div className="overflow-hidden rounded-3xl shadow-xl max-w-2xl mx-auto" style={{ aspectRatio: "3/2" }}>
+                <img src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F9760aa02bbff40bb8f5fbc96e1165bc0?format=webp&width=800" alt="Anatomical illustration of foot and heel pain" className="w-full h-full object-cover" />
               </div>
             </section>
 
