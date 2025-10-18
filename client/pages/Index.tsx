@@ -424,8 +424,8 @@ export default function Index() {
                 <div className="grid gap-8 md:grid-cols-2 md:items-center md:grid-flow-dense">
                   <div className="md:order-2 overflow-hidden rounded-2xl max-w-sm">
                     <img
-                      src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F697cfe2c7fb2422c81541f08ee6bc20a?format=webp&width=800"
-                      alt="Adjustable X-strap ankle stabilizers"
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fa0664f90c154450a9b92018c508c7423?format=webp&width=800"
+                      alt="X-strap stabilization with ankle support illustration"
                       className="w-full h-full object-cover"
                     />
                   </div>
