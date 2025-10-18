@@ -199,8 +199,8 @@ export default function Index() {
             {/* Expert Medical Professional */}
             <div className="overflow-hidden rounded-3xl shadow-xl max-w-2xl mx-auto">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F38e4218a39564e56ac2b4d5e510768e9?format=webp&width=800"
-                alt="Medical professional discussing foot anatomy"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F019ebb33ed2b43f6a61611a1a07992b5?format=webp&width=800"
+                alt="X-ray illustration of foot and heel pain"
                 className="w-full h-full object-cover"
               />
             </div>
