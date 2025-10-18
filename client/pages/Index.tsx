@@ -401,7 +401,7 @@ export default function Index() {
                       <li className="flex items-start gap-3">
                         <CheckCircle2 className="mt-1 h-5 w-5 text-primary flex-none" />
                         <span>
-                          Provides proprioceptive feedback—your brain gets
+                          Provides proprioceptive feedback��your brain gets
                           better signals from your foot, so you feel more stable
                           and confident
                         </span>
@@ -980,7 +980,7 @@ export default function Index() {
             </section>
 
             {/* CTA Final */}
-            <section className="space-y-6 rounded-3xl bg-primary p-8 text-primary-foreground md:p-12">
+            <section className="space-y-6 rounded-3xl bg-primary p-8 text-primary-foreground md:p-12 flex flex-col items-center">
               <a
                 href="https://orthos.store/products/ankle-brace"
                 className="inline-flex items-center gap-3 rounded-full bg-white px-8 py-4 text-base font-semibold text-primary hover:bg-secondary transition"
