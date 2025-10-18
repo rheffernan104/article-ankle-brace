@@ -35,7 +35,6 @@ export default function Index() {
           </div>
           <a
             href="https://orthos.store/products/ankle-brace"
-            target="_blank"
             rel="noopener noreferrer"
             className="rounded-full bg-primary px-6 py-2 text-sm font-semibold text-primary-foreground hover:bg-primary/90 inline-block"
           >
