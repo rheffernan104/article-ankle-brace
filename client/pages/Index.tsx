@@ -367,6 +367,15 @@ export default function Index() {
                 />
               </div>
 
+              {/* X-Strap Demonstration */}
+              <div className="overflow-hidden rounded-3xl shadow-xl max-w-4xl mx-auto" style={{ aspectRatio: "16/9" }}>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fd5a4ee7ffc1648cd8ed455ebcbb443b7?format=webp&width=800"
+                  alt="X-strap ankle compression demonstration"
+                  className="w-full h-full object-contain bg-white"
+                />
+              </div>
+
               <div className="space-y-8">
                 <div className="grid gap-8 md:grid-cols-2 md:items-center">
                   <div>
