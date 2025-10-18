@@ -361,8 +361,8 @@ export default function Index() {
               {/* Product Showcase - Ankle Brace */}
               <div className="overflow-hidden rounded-3xl shadow-xl max-w-sm mx-auto">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F7670250287474421a3fedab995952ce4?format=webp&width=800"
-                  alt="ORTHOS dual support compression system"
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F31adc541b4f74323abedba82d925f91f?format=webp&width=800"
+                  alt="Anatomical illustration of foot arch and plantar fascia support"
                   className="w-full h-full object-cover"
                 />
               </div>
