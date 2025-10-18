@@ -421,11 +421,12 @@ export default function Index() {
                       And that constant throbbing ache? It fades.
                     </p>
                   </div>
-                  <div className="overflow-hidden rounded-2xl max-w-sm mx-auto">
+                  <div className="overflow-hidden rounded-2xl max-w-2xl mx-auto" style={{ aspectRatio: "16/9" }}>
                     <img
                       src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fff465b35545d4f378797c8e1001efff2?format=webp&width=800"
                       alt="ORTHOS compression sleeve on foot demonstrating support"
                       className="w-full h-full object-cover"
+                      style={{ objectPosition: "center 50%" }}
                     />
                   </div>
                 </div>
