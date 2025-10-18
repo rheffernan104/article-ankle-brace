@@ -502,6 +502,16 @@ export default function Index() {
               </div>
             </section>
 
+            {/* Product in Use - Ankle Brace */}
+            <div className="overflow-hidden rounded-3xl shadow-xl max-w-4xl mx-auto" style={{ aspectRatio: "16/9" }}>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Feac2d61db3f8432db51f3d015a713efd?format=webp&width=800"
+                alt="Woman wearing ORTHOS foot brace and ankle support"
+                className="w-full h-full object-cover"
+                style={{ objectPosition: "center bottom" }}
+              />
+            </div>
+
             {/* What This Means For You */}
             <section className="space-y-6">
               <h2 className="text-3xl font-bold text-primary">
