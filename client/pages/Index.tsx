@@ -83,6 +83,7 @@ export default function Index() {
                   src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F9760aa02bbff40bb8f5fbc96e1165bc0?format=webp&width=800"
                   alt="Anatomical illustration of foot and heel pain"
                   className="w-full h-full object-cover"
+                  style={{ objectPosition: "42% 45%" }}
                 />
               </div>
             </section>
