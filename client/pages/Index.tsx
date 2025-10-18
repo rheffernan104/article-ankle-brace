@@ -358,21 +358,12 @@ export default function Index() {
                 different:
               </p>
 
-              {/* Product Showcase - Ankle Brace */}
-              <div className="overflow-hidden rounded-3xl shadow-xl max-w-sm mx-auto">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F31adc541b4f74323abedba82d925f91f?format=webp&width=800"
-                  alt="Anatomical illustration of foot arch and plantar fascia support"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
               {/* X-Strap Demonstration */}
-              <div className="overflow-hidden rounded-3xl shadow-xl max-w-4xl mx-auto" style={{ aspectRatio: "16/9" }}>
+              <div className="overflow-hidden rounded-3xl shadow-xl max-w-4xl mx-auto">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fd5a4ee7ffc1648cd8ed455ebcbb443b7?format=webp&width=800"
-                  alt="X-strap ankle compression demonstration"
-                  className="w-full h-full object-contain bg-white"
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F04efc69daf28449e95d524e3ff897e43?format=webp&width=800"
+                  alt="ORTHOS ankle brace X-strap system demonstration"
+                  className="w-full h-full object-cover"
                 />
               </div>
 
