@@ -491,13 +491,6 @@ export default function Index() {
                       finally start healing instead of re-straining.
                     </p>
                   </div>
-                  <div className="overflow-hidden rounded-2xl max-w-sm mx-auto">
-                    <img
-                      src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F547b2bca37b347f7963ecf72ebb75fa8?format=webp&width=800"
-                      alt="Integrated arch lift and heel cushioning"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
                 </div>
               </div>
             </section>
