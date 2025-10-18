@@ -618,8 +618,8 @@ export default function Index() {
             <div className="grid gap-8 md:grid-cols-2 md:items-center rounded-3xl overflow-hidden shadow-lg">
               <div className="overflow-hidden rounded-2xl">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F93b34031aeb748da9b81a001a2b7a731?format=webp&width=800"
-                  alt="Linda M, 52-year-old retail manager"
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F39f22a6dc50542dbac302211398c9d87?format=webp&width=800"
+                  alt="Satisfied customer wearing ORTHOS brace"
                   className="w-full h-full object-cover"
                 />
               </div>
