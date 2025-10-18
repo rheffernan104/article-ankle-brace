@@ -422,15 +422,8 @@ export default function Index() {
                   </div>
                 </div>
 
-                <div className="grid gap-8 md:grid-cols-2 md:items-center md:grid-flow-dense">
-                  <div className="md:order-2 overflow-hidden rounded-2xl max-w-sm">
-                    <img
-                      src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fa0664f90c154450a9b92018c508c7423?format=webp&width=800"
-                      alt="X-strap stabilization with ankle support illustration"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="md:order-1">
+                <div className="space-y-6">
+                  <div>
                     <h3 className="text-2xl font-bold text-primary mb-4">
                       The Adjustable X-Strap Stabilizers
                     </h3>
@@ -463,9 +456,16 @@ export default function Index() {
                       one—without the bulk.
                     </p>
                   </div>
+                  <div className="overflow-hidden rounded-2xl max-w-sm mx-auto">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fa0664f90c154450a9b92018c508c7423?format=webp&width=800"
+                      alt="X-strap stabilization with ankle support illustration"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
                 </div>
 
-                <div className="grid gap-8 md:grid-cols-2 md:items-center">
+                <div className="space-y-6">
                   <div>
                     <h3 className="text-2xl font-bold text-primary mb-4">
                       Integrated Arch Lift & Heel Cushioning
