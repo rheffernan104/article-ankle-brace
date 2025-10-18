@@ -261,6 +261,15 @@ export default function Index() {
               </p>
             </section>
 
+            {/* Product Image */}
+            <div className="overflow-hidden rounded-3xl shadow-xl max-w-2xl mx-auto">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fca50a8708ffd46a9abf1ca753fec1e1c?format=webp&width=800"
+                alt="ORTHOS ankle compression brace with X-strap support"
+                className="w-full h-full object-cover"
+              />
+            </div>
+
             {/* The Solution */}
             <section className="space-y-6">
               <h2 className="text-3xl font-bold text-primary">
