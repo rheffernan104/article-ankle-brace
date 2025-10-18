@@ -998,27 +998,12 @@ export default function Index() {
               <h2 className="text-3xl font-bold text-primary">
                 See the Difference ORTHOS Makes
               </h2>
-              <div className="grid gap-3 md:grid-cols-2 max-w-2xl mx-auto">
-                {[1, 2, 3, 4].map((i) => (
-                  <div
-                    key={i}
-                    className="overflow-hidden rounded-2xl shadow-lg"
-                  >
-                    <img
-                      src={
-                        i === 1
-                          ? "https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F03415596f7dd4b6d8c33987f3dcf7b2f?format=webp&width=800"
-                          : i === 2
-                            ? "https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fb017d59f33da4b85b66b0e6a4d25e8d4?format=webp&width=800"
-                            : i === 3
-                              ? "https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fe205f8bb6f1340d4bcabf6ec68cbc0d3?format=webp&width=800"
-                              : "https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F74a466897ddd4a5b8bbc5d591b7cdb70?format=webp&width=800"
-                      }
-                      alt="Orthos customer success story"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                ))}
+              <div className="overflow-hidden rounded-2xl shadow-lg max-w-2xl mx-auto">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F57181cddad584777a379d01d98061019?format=webp&width=800"
+                  alt="Woman walking in park with ORTHOS support"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </section>
 
