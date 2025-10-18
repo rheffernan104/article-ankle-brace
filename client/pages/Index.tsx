@@ -368,7 +368,7 @@ export default function Index() {
               </div>
 
               <div className="space-y-8">
-                <div className="grid gap-8 md:grid-cols-2 md:items-center">
+                <div className="space-y-6">
                   <div>
                     <h3 className="text-2xl font-bold text-primary mb-4">
                       The 360° Compression Weave
