@@ -75,14 +75,11 @@ export default function Index() {
                 <span>Last Updated: October 15, 2025</span>
               </div>
 
-              <div
-                className="overflow-hidden rounded-3xl shadow-xl max-w-2xl mx-auto"
-                style={{ aspectRatio: "3/2" }}
-              >
+              <div className="overflow-hidden rounded-3xl shadow-xl mx-auto">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fe6844d20a6aa40af806bb3aba01b4c0f?format=webp&width=800"
                   alt="Anatomical illustration of foot and ankle pain relief"
-                  className="w-full h-full object-cover"
+                  className="w-full h-auto"
                 />
               </div>
             </section>
