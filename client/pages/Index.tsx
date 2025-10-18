@@ -1036,7 +1036,7 @@ export default function Index() {
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="mt-1 h-5 w-5 text-primary flex-none" />
-                  <span>30-day guarantee + free size exchanges</span>
+                  <span>30-day guarantee</span>
                 </li>
               </ul>
             </section>
