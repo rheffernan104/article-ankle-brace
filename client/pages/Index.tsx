@@ -260,15 +260,6 @@ export default function Index() {
               </p>
             </section>
 
-            {/* Product Feature Image - ORTHOS in Use */}
-            <div className="overflow-hidden rounded-3xl shadow-xl max-w-2xl mx-auto">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fae87cbd17e0b4fc481a6babddb52d776?format=webp&width=800"
-                alt="Anatomical illustration of foot arch compression support"
-                className="w-full h-full object-cover"
-              />
-            </div>
-
             {/* The Solution */}
             <section className="space-y-6">
               <h2 className="text-3xl font-bold text-primary">
