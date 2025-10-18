@@ -423,8 +423,8 @@ export default function Index() {
                   </div>
                   <div className="overflow-hidden rounded-2xl max-w-sm mx-auto">
                     <img
-                      src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F89474dd364344b518f6f310a644e91f6?format=webp&width=800"
-                      alt="360 degree compression weave technology"
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fff465b35545d4f378797c8e1001efff2?format=webp&width=800"
+                      alt="ORTHOS compression sleeve on foot demonstrating support"
                       className="w-full h-full object-cover"
                     />
                   </div>
