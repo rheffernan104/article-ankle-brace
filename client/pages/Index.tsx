@@ -991,7 +991,7 @@ export default function Index() {
                 <ArrowRight className="h-5 w-5" />
               </a>
               <p className="text-sm">
-                30-Day Money-Back Guarantee | Free Shipping | Secure Checkout
+                30-Day Guarantee | Free Shipping | Secure Checkout
               </p>
             </section>
 
