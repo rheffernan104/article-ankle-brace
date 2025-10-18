@@ -80,8 +80,8 @@ export default function Index() {
                 style={{ aspectRatio: "3/2" }}
               >
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F1f5a54a01d044420911841edfe022c57?format=webp&width=800"
-                  alt="Healthcare professional running in hospital hallway"
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2Fe6844d20a6aa40af806bb3aba01b4c0f?format=webp&width=800"
+                  alt="Anatomical illustration of foot and ankle pain relief"
                   className="w-full h-full object-cover"
                 />
               </div>
