@@ -131,6 +131,77 @@ export default function Index() {
             </section>
 
             {/* Why Most Braces Fail */}
+            {/* Mobile Product Tab */}
+            <div className="lg:hidden mb-8 rounded-3xl bg-white p-5 shadow-lg border border-border/40 space-y-4">
+              <div className="space-y-1">
+                <p className="text-xs font-semibold uppercase tracking-wider text-primary">
+                  LIMITED TIME
+                </p>
+                <h3 className="text-lg font-bold text-primary leading-snug">
+                  ORTHOS Foot Sleeve & Ankle Support
+                </h3>
+              </div>
+
+              <div className="flex items-baseline gap-2">
+                <span className="text-3xl font-bold text-primary">$39</span>
+                <span className="text-xs font-semibold text-muted-foreground line-through">
+                  $79
+                </span>
+                <span className="rounded-full bg-accent/20 px-2 py-0.5 text-xs font-semibold text-accent">
+                  50% OFF
+                </span>
+              </div>
+
+              <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                {[...Array(5)].map((_, i) => (
+                  <Star
+                    key={i}
+                    className="h-3 w-3 fill-yellow-400 text-yellow-400"
+                  />
+                ))}
+                <span className="text-xs ml-0.5">4.7 / 5 stars</span>
+              </div>
+
+              <div className="rounded-lg overflow-hidden bg-gradient-to-b from-gray-50 to-gray-100 p-3 flex justify-center">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F8df822dd30f045b6bd3f3d062c917255?format=webp&width=800"
+                  alt="ORTHOS Ankle Brace Product"
+                  className="w-1/2 h-auto object-contain"
+                />
+              </div>
+
+              <a
+                href="https://orthos.store/products/ankle-brace"
+                className="block w-full rounded-full bg-accent py-2.5 text-center font-semibold text-white hover:bg-accent/90 transition text-sm shadow-md"
+              >
+                Get Orthos Now
+              </a>
+
+              <ul className="space-y-1.5 text-xs text-muted-foreground">
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="mt-0.5 h-3 w-3 text-primary flex-none flex-shrink-0" />
+                  <span>Free shipping on all orders</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="mt-0.5 h-3 w-3 text-primary flex-none flex-shrink-0" />
+                  <span>Fits any shoe</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="mt-0.5 h-3 w-3 text-primary flex-none flex-shrink-0" />
+                  <span>All day comfort</span>
+                </li>
+              </ul>
+
+              <div className="rounded-lg border border-primary/20 bg-primary/5 p-2.5 text-center text-xs text-muted-foreground">
+                <p className="font-semibold text-foreground text-xs">
+                  Limited stock available
+                </p>
+                <p className="mt-0.5 text-xs">
+                  Projected to sell out in 7-10 days
+                </p>
+              </div>
+            </div>
+
             <section className="space-y-6">
               <h2 className="text-3xl font-bold text-primary">
                 The Real Reason Most Braces, Sleeves & Inserts Fail (And Keep
