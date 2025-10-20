@@ -132,14 +132,23 @@ export default function Index() {
 
             {/* Why Most Braces Fail */}
             {/* Mobile Product Tab */}
-            <div className="lg:hidden mb-8 rounded-3xl bg-white p-5 shadow-lg border border-border/40 space-y-4">
-              <div className="space-y-1">
-                <p className="text-xs font-semibold uppercase tracking-wider text-primary">
-                  LIMITED TIME
-                </p>
-                <h3 className="text-lg font-bold text-primary leading-snug">
-                  ORTHOS Foot Sleeve & Ankle Support
-                </h3>
+            <div className="lg:hidden mb-8 rounded-3xl bg-white p-5 shadow-lg border border-border/40 space-y-3">
+              <div className="flex gap-3 items-start justify-between">
+                <div className="space-y-1 flex-1">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-primary">
+                    LIMITED TIME
+                  </p>
+                  <h3 className="text-lg font-bold text-primary leading-snug">
+                    ORTHOS Foot Sleeve & Ankle Support
+                  </h3>
+                </div>
+                <div className="flex-shrink-0">
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F8df822dd30f045b6bd3f3d062c917255?format=webp&width=800"
+                    alt="ORTHOS Ankle Brace Product"
+                    className="w-20 h-auto object-contain"
+                  />
+                </div>
               </div>
 
               <div className="flex items-baseline gap-2">
@@ -160,14 +169,6 @@ export default function Index() {
                   />
                 ))}
                 <span className="text-xs ml-0.5">4.7 / 5 stars</span>
-              </div>
-
-              <div className="flex justify-center py-2">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F8df822dd30f045b6bd3f3d062c917255?format=webp&width=800"
-                  alt="ORTHOS Ankle Brace Product"
-                  className="w-2/5 h-auto object-contain"
-                />
               </div>
 
               <a
