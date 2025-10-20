@@ -162,11 +162,11 @@ export default function Index() {
                 <span className="text-xs ml-0.5">4.7 / 5 stars</span>
               </div>
 
-              <div className="rounded-lg overflow-hidden bg-gradient-to-b from-gray-50 to-gray-100 p-3 flex justify-center">
+              <div className="flex justify-center py-2">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fbdd0323bbd62433fb2b19a5850550dd6%2F8df822dd30f045b6bd3f3d062c917255?format=webp&width=800"
                   alt="ORTHOS Ankle Brace Product"
-                  className="w-1/2 h-auto object-contain"
+                  className="w-2/5 h-auto object-contain"
                 />
               </div>
 
