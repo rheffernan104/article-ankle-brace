@@ -177,21 +177,6 @@ export default function Index() {
                 Get Orthos Now
               </a>
 
-              <ul className="space-y-1.5 text-xs text-muted-foreground">
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="mt-0.5 h-3 w-3 text-primary flex-none flex-shrink-0" />
-                  <span>Free shipping on all orders</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="mt-0.5 h-3 w-3 text-primary flex-none flex-shrink-0" />
-                  <span>Fits any shoe</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="mt-0.5 h-3 w-3 text-primary flex-none flex-shrink-0" />
-                  <span>All day comfort</span>
-                </li>
-              </ul>
-
               <div className="rounded-lg border border-primary/20 bg-primary/5 p-2.5 text-center text-xs text-muted-foreground">
                 <p className="font-semibold text-foreground text-xs">
                   Limited stock available
