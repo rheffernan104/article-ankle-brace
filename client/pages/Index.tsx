@@ -12,7 +12,7 @@ export default function Index() {
     {
       quote:
         "I've had plantar fasciitis for 18 months. That morning pain where it feels like you're stepping on glass? I had it every. single. day. Tried stretches, ice, a night splint—nothing worked long-term. I was skeptical about Orthos because I've been burned before, but I figured the guarantee meant I had nothing to lose. Within ONE WEEK, my morning pain was 80% gone. I can walk my dog again. I can stand in the kitchen and cook dinner. I feel like myself again.",
-      author: "David R., 58",
+      author: "David R., 38",
       location: "Portland, OR",
       highlight: "FINALLY RELIEF FROM PLANTAR FASCIITIS",
     },
