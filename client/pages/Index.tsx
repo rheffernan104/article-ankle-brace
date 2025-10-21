@@ -459,7 +459,7 @@ export default function Index() {
                       <li className="flex items-start gap-3">
                         <CheckCircle2 className="mt-1 h-5 w-5 text-primary flex-none" />
                         <span>
-                          Provides proprioceptive feedback��your brain gets
+                          Provides proprioceptive feedback your brain gets
                           better signals from your foot, so you feel more stable
                           and confident
                         </span>
