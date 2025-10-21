@@ -264,7 +264,7 @@ export default function Index() {
               <blockquote className="text-base italic leading-relaxed text-muted-foreground">
                 "The biggest mistake people make is treating foot pain and ankle
                 instability as separate problems. In reality, they're connected.
-                If you only compress without stabilizing��or stabilize without
+                If you only compress without stabilizing or stabilize without
                 improving circulation—you're only addressing half the issue.
                 That's why so many patients say 'nothing works.'"
               </blockquote>
