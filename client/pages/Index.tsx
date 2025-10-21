@@ -491,7 +491,7 @@ export default function Index() {
                     <p className="text-base leading-relaxed text-muted-foreground mb-4">
                       This is the breakthrough most other products completely
                       miss. The X-Strap system wraps around your ankle and
-                      midfoot in a figure-8 pattern��the exact same technique
+                      midfoot in a figure-8 pattern the exact same technique
                       athletic trainers use to prevent sprains in professional
                       athletes.
                     </p>
